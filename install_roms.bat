@@ -5,7 +5,7 @@ set THIS_PATH=%CD%
 
 echo NMMAMP-ExtraMuseum ROM Installer
 echo --------------------------------
-echo Version 0.1.0.0 by Terry Goodwin
+echo Version 0.1.1.0 by Terry Goodwin
 echo --------------------------------
 echo Android tools path: %ADB_FOLDER%
 echo Running from path: %THIS_PATH%
@@ -18,12 +18,10 @@ echo ADB success
 echo.
 echo Getting root access for various protected actions...
 call %ADB_FOLDER%\adb root || goto:rootfailed
-echo Root access success
 
 echo.
 echo Remounting the file system so we can write to protected areas...
 call %ADB_FOLDER%\adb remount || goto:remountfailed
-echo Remount success
 
 echo.
 echo Copying over BIOS/ROMs etc....

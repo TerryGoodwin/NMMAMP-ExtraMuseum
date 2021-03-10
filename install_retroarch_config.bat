@@ -14,11 +14,17 @@ echo.
 echo Did you download your most recent RetroArch config from your file first before making changes?
 echo If you proceed without doing this you may lose changes you've made.
 echo To download the latest configuration, run get_latest_retroarch_config.bat
-echo To quit the process and abort, close this window.
 
 echo.
-pause
+set /p CONTINUE="Proceed? (y/n): "
 
+if "%CONTINUE%"=="y" (goto continue)
+if "%CONTINUE%"=="yes" (goto continue)
+if "%CONTINUE%"=="Y" (goto continue)
+if "%CONTINUE%"=="YES" (goto continue)
+goto:aborted
+
+:continue
 echo.
 echo Proceeding...
 
@@ -66,6 +72,11 @@ echo Failed to remount filesystem, without this we can't push files to the My Ar
 goto:failed
 
 REM ----------------------------------- The End -----------------------------------
+
+:aborted
+echo.
+echo Aborted, nothing installed
+goto:endpause
 
 :end
 echo.

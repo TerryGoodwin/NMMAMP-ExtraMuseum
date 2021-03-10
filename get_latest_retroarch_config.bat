@@ -13,11 +13,17 @@ echo Running from path: %THIS_PATH%
 echo.
 echo This will download retroarch.cfg from your My Arcade to retroarch\retroarch.new.cfg
 echo If you proceed, an existing file at that location with that name will be overwritten without asking.
-echo To quit the process and abort, close this window.
 
 echo.
-pause
+set /p CONTINUE="Proceed? (y/n): "
 
+if "%CONTINUE%"=="y" (goto continue)
+if "%CONTINUE%"=="yes" (goto continue)
+if "%CONTINUE%"=="Y" (goto continue)
+if "%CONTINUE%"=="YES" (goto continue)
+goto:aborted
+
+:continue
 echo.
 echo Proceeding...
 
@@ -64,6 +70,11 @@ echo Failed to remount filesystem, without this we can't push files to the My Ar
 goto:failed
 
 REM ----------------------------------- The End -----------------------------------
+
+:aborted
+echo.
+echo Aborted, nothing downloaded
+goto:endpause
 
 :end
 echo.

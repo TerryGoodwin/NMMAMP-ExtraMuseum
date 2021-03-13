@@ -7,7 +7,7 @@ set THIS_PATH=%CD%
 
 echo NMMAMP-ExtraMuseum All ROMs Uninstaller
 echo ---------------------------------------
-echo Version 0.1.1.0 by Terry Goodwin
+echo Version 0.1.2.0 by Terry Goodwin
 echo ---------------------------------------
 echo Android tools path: %ADB_FOLDER%
 echo Running from path: %THIS_PATH%
@@ -77,6 +77,11 @@ goto:failed
 echo.
 echo Failed to remount filesystem, without this we can't push files to the My Arcade... Aborting :(
 goto:failed
+
+:failed
+echo.
+echo Finished with errors - things may not have worked. Resolve any errors, and try again.
+goto:endpause
 
 REM ----------------------------------- The End -----------------------------------
 

@@ -69,6 +69,11 @@ echo.
 echo Failed to remount filesystem, without this we can't push files to the My Arcade... Aborting :(
 goto:failed
 
+:failed
+echo.
+echo Finished with errors - things may not have worked. Resolve any errors, and try again.
+goto:endpause
+
 REM ----------------------------------- The End -----------------------------------
 
 :aborted

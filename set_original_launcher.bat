@@ -3,10 +3,10 @@
 set ADB_FOLDER=c:\android\platform-tools
 set THIS_PATH=%CD%
 
-echo NMMAMP-ExtraMuseum RA Cores Installer
-echo -------------------------------------
+echo NMMAMP-ExtraMuseum Setting Original Launcher
+echo --------------------------------------------
 echo Version 0.1.2.0 by Terry Goodwin
-echo -------------------------------------
+echo --------------------------------------------
 echo Android tools path: %ADB_FOLDER%
 echo Running from path: %THIS_PATH%
 
@@ -24,24 +24,35 @@ echo Remounting the file system so we can write to protected areas...
 call %ADB_FOLDER%\adb remount || goto:remountfailed
 
 echo.
-echo Copying over RetroArch cores...
-call %ADB_FOLDER%\adb push %THIS_PATH%\retroarch\cores /data/data/com.retroarch.ra32/ || goto:coresfailed
-echo Cores push success
+echo Pushing clean package restrictions XML...
+call %ADB_FOLDER%\adb push %THIS_PATH%\config\package-restrictions.stock.xml /data/system/users/0/package-restrictions.xml || goto:configfailed
+
+:reboot
+echo.
+echo Rebooting...
+call %ADB_FOLDER%\adb reboot
+
+echo.
+echo Waiting for 45 seconds for device to reboot...
+echo PLEASE be patient!
+ping 192.0.2.2 -n 1 -w 45000 > delete_me
+
+echo.
+echo Tapping gamelaunch...
+call %ADB_FOLDER%\adb shell input tap 100 270
+
+echo.
+echo Tapping Always...
+call %ADB_FOLDER%\adb shell input tap 100 300
 
 goto:end
 
 REM ----------------------------------- Error States -----------------------------------
 
-:coresfailed
-echo.
-echo Failed to push RetroArch cores - has the directory (retroarch\cores) been moved or deleted?
-echo It might be okay if this fails, but if this is your first time running this you might not have any cores available...
-goto:endpause
-
 :devicesfailed
 echo.
 echo Couldn't start ADB or check for devices - are the Android tools installed? Is the path at the top this file correct?
-goto:failed
+goto:endpause
 
 :rootfailed
 echo.
@@ -53,6 +64,11 @@ echo.
 echo Failed to remount filesystem, without this we can't push files to the My Arcade... Aborting :(
 goto:failed
 
+:configfailed
+echo.
+echo Failed to push stock package restrictions configuration - it may be fine and still work, so proceeding...
+goto:reboot
+
 :failed
 echo.
 echo Finished with errors - things may not have worked. Resolve any errors, and try again.
@@ -63,8 +79,6 @@ REM ----------------------------------- The End --------------------------------
 :end
 echo.
 echo All finished!
-echo To add more cores run this file again.
-echo Note that removing cores from retroarch\cores and running this again will not delete them from your device.
 goto:endpause
 
 :endpause

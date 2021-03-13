@@ -1,24 +1,26 @@
 # Namco Musem - My Arcade Mini Player - Extra Musem
-Version 0.1.1.0
+Version 0.1.2.0
 
 ### What is this?
-A set of Windows batch files to allow you to install and run RetroArch
-(or technically any sensible/valid APK) on the Namco Museum My Arcade
-Mini Player by tethering it to a Windows computer. Granting you an
-Extra Museum, if you will.
+A set of Windows batch files and an Android APK to allow you to install
+and run RetroArch on the Namco Museum My Arcade Mini Player. Granting you an Extra Museum, if you will.
 
 Crucially, this provides a RetroArch configuration that allows you to
 navigate the RetroArch frontend using the built-in controls of the
 Namco Museum My Arcade Mini Player.
 
+The original frontend and game selection are easily accessible from the
+new launcher - at boot you can choose to launch RetroArch or the
+original experience.
+
 ### What is this not?
-A collection of ROMs or emulators - there's nothing included here except
-scripts and an example configuration. So this does not currently include
-a way to install anything to the Namco Museum My Arcade Mini Player and
-let you run it without sending commands from a computer. Not yet.
+A collection of ROMs or emulators - you'll have to find and add those
+yourself.
 
 This isn't a frontend (lavish or otherwise) for a new collection of
-ROMs and emulators on the Namco Museum My Arcade Mini Player - yet.
+ROMs and emulators on the Namco Museum My Arcade Mini Player - while
+there's a new launcher to choose the stock content or RetroArch, there
+is no extra frontend added on top of RetroArch.
 
 Knowing how to use RetroArch is beyond scope here - the intention is
 currently to get everything onto the Namco Museum My Arcade Mini Player
@@ -46,14 +48,16 @@ You only have to do this process once to install everything:
 * Rename your RetroArch 32bit APK as `retroarch.apk` and put it in the `retroarch` folder
 * Put any cores you want to use into `retroarch\cores`
 * Put any ROMs, BIOS files etc. you need for RetroArch into `GAME-EXTRA`
+* IMPORTANT! Make sure no other Android devices are connected!
+* Make sure your device is plugged into the computer and turned on
+  * IMPORTANT! Make sure it's finished booting before continuing...
 * Double-click the file `run_me_first_after_readme.bat`
+* Be patient as everything is installed
 * That's (hopefully) it!
  
-You should then be able to use the controls on the device to navigate
-RetroArch and play some games!
-
-From now on, all you have to do is run `boot_retroarch.bat` while your
-device is connected to your computer and it's turned on.
+You should then be able to use choose from the original game selection
+or RetroArch when you boot the device, then use the controls on the
+device to navigate RetroArch and play some games!
 
 ## Controls
 The biggest hurdle to getting this working was figuring out how to
@@ -93,13 +97,13 @@ This could be for a couple of reasons:
 
 ## What else can I do?
 
-### boot_retroarch.bat
-Boots into RetroArch from the stock experience.
-
 ### get_latest_retroarch_config.bat
 Downloads `retroarch.cfg` from the device and places it at
 `retroarch\retroarch.new.cfg` so you can make new changes, then push
 them back to the device.
+
+### install_launcher.bat
+(Re-)Installs the launcher APK from frontend\emlauncher.apk
 
 ### install_retroarch.bat
 Installs RetroArch APK from retroarch\retroarch.apk then copies over
@@ -125,7 +129,7 @@ Reboots the device and takes you back to the stock UI.
 
 ### remove_all.bat
 Uninstalls everything from the device that's been put there by these
-scripts
+scripts and restores it to stock
 
 ### remove_all_retroarch_cores.bat
 After receiving confirmation, deletes all installed cores from the
@@ -134,9 +138,6 @@ device. Use `install_retroarch_cores.bat` to put some back.
 ### remove_all_roms.bat
 After receiving confirmation, deletes all installed ROMs from the
 device. Use `install_roms.bat` to put some back.
-
-### remove_retroarch.bat
-Uninstalls RetroArch and all it's related data, but not ROMs.
 
 ### remove_retroarch_cores.bat
 Prints a list of currently installed cores, and allows you to type the
@@ -148,18 +149,29 @@ Prints a list of currently installed ROMs, and allows you to type the
 full file name of the ROM you wish to remove. Type `quit` `stop` or
 `exit` to stop deleting.
 
+### set_extra_launcher.bat
+If you've chosen to switch back to the stock experience via the script
+below (without uninstalling anything) run this to get the launcher back
+so you can boot into RetroArch.
+
+### set_original_launcher.bat
+Restore the device back to the stock experience - without removing
+anything. Just run set_extra_launcher.bat if you want to get it all
+back again.
+
 ## To Do
 A lot...
 
-* Write a Java app to act as a launcher at boot, to allow the user to choose the stock experience or the Extra Museum without being tethered to a computer
 * Write a Java app to act as a configurable frontend for ROM collections so you don't have to use RetroArch's menus
 * Add button mappings per core/system so they make more sense.
-* Add scripts to allow you to install and uninstall any arbitrary APK
 * Extend RetroArch core and ROM scripts to allow drag-and-drop of single files
 
 ## License
 
 Copyright 2021 Terry Goodwin
+
+No copyrighted from Namco or My Arcade content is included or
+distributed here! All scripts and artwork is entirely original.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to

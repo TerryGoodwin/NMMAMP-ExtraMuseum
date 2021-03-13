@@ -3,10 +3,10 @@
 set ADB_FOLDER=c:\android\platform-tools
 set THIS_PATH=%CD%
 
-echo NMMAMP-ExtraMuseum Simple Tethered Boot
-echo ---------------------------------------
-echo Version 0.1.1.0 by Terry Goodwin
-echo ---------------------------------------
+echo NMMAMP-ExtraMuseum Untethered Boot
+echo ----------------------------------
+echo Version 0.1.2.0 by Terry Goodwin
+echo ----------------------------------
 echo Android tools path: %ADB_FOLDER%
 echo Running from path: %THIS_PATH%
 
@@ -46,11 +46,33 @@ echo Copying over BIOS/ROMs etc....
 call %ADB_FOLDER%\adb push %THIS_PATH%\GAME-EXTRA /system/media/ || goto:romsfailed
 echo ROMs push success
 
-:booting
+:launcher
 echo.
-echo Booting RetroArch...
-call %ADB_FOLDER%\adb shell monkey -p com.retroarch.ra32 1 || goto:bootingfailed
-echo RetroArch booting success
+echo Installing emlauncher.apk from %THIS_PATH%\frontend\emlauncher.apk
+call %ADB_FOLDER%\adb install %THIS_PATH%\frontend\emlauncher.apk || goto:installlauncherfailed
+echo Success - emlauncher.apk installed (or was already installed)
+
+echo.
+echo Pushing clean package restrictions XML...
+call %ADB_FOLDER%\adb push %THIS_PATH%\config\package-restrictions.stock.xml /data/system/users/0/package-restrictions.xml || goto:packagesfailed
+
+:reboot
+echo.
+echo Rebooting...
+call %ADB_FOLDER%\adb reboot
+
+echo.
+echo Waiting for 45 seconds for device to reboot...
+echo PLEASE be patient!
+ping 192.0.2.2 -n 1 -w 45000 > delete_me
+
+echo.
+echo Tapping EM Launcher...
+call %ADB_FOLDER%\adb shell input tap 100 240
+
+echo.
+echo Tapping Always...
+call %ADB_FOLDER%\adb shell input tap 100 300
 
 goto:end
 
@@ -77,7 +99,17 @@ goto:roms
 echo.
 echo Failed to push BIOS/ROMs etc. - has the directory (GAME-EXTRA) been moved or deleted?
 echo It might be okay if this fails, but if this is your first time running this you might not have any ROMs available...
-goto:booting
+goto:launcher
+
+:installlauncherfailed
+echo.
+echo Failed to install launcher APK - is it in the right place with the right name (frontend\emlauncher.apk)?
+goto:failed
+
+:packagesfailed
+echo.
+echo Failed to push stock package restrictions configuration - it may be fine and still work, so proceeding...
+goto:reboot
 
 :devicesfailed
 echo.
@@ -109,10 +141,16 @@ REM ----------------------------------- The End --------------------------------
 :end
 echo.
 echo All finished!
-echo To get back to the built-in games launcher, run reboot_device.bat
-echo To launch RetroArch again, connect your My Arcade and turn it on, then once on the main game selection launch run_retroarch.bat
-echo To add more ROMs or cores run install_roms.bat and install_retroarch_cores.bat
-echo To update the config, first run get_latest_retroarch_config.bat to get the latest, then call install_retroarch_config.bat`
+echo.
+echo You should now be looking at the new frontend!
+echo.
+echo From here you can launch the original museum, or the extra museum (probably RetroArch)
+echo.
+echo To add more ROMs or cores to RetroArch run install_roms.bat and install_retroarch_cores.bat
+echo.
+echo To update the RetroArch config, first run get_latest_retroarch_config.bat to get the latest, then call install_retroarch_config.bat`
+echo.
+echo To return everything to stock, run remove_all.bat
 goto:endpause
 
 :endpause

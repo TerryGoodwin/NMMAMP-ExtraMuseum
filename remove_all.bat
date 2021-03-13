@@ -3,13 +3,24 @@
 set ADB_FOLDER=c:\android\platform-tools
 set THIS_PATH=%CD%
 
-echo NMMAMP-ExtraMuseum Remove Tethered Boot
-echo ---------------------------------------
-echo Version 0.1.1.0 by Terry Goodwin
-echo ---------------------------------------
+echo NMMAMP-ExtraMuseum Remove Extra Museum
+echo --------------------------------------
+echo Version 0.1.2.0 by Terry Goodwin
+echo --------------------------------------
 echo Android tools path: %ADB_FOLDER%
 echo Running from path: %THIS_PATH%
 
+echo.
+echo Uninstall everything? This will uninstall the launcher, RetroArch, any ROMs, cores, and other data that's been added by these scripts.
+set /p CONFIRM="Proceed with uninstalling? (y/n): "
+
+if "%CONFIRM%"=="y" (goto proceed)
+if "%CONFIRM%"=="yes" (goto proceed)
+if "%CONFIRM%"=="Y" (goto proceed)
+if "%CONFIRM%"=="YES" (goto proceed)
+goto:aborted
+
+:proceed
 echo.
 echo Getting devices with ADB, will start daemon if it needs to...
 call %ADB_FOLDER%\adb devices || goto:devicesfailed
@@ -23,15 +34,15 @@ echo.
 echo Remounting the file system so we can write to protected areas...
 call %ADB_FOLDER%\adb remount || goto:remountfailed
 
+:uninstalllauncher
 echo.
-echo Uninstall everything? This will uninstall RetroArch and remove any ROMs, cores, and other data that's been added by these scripts.
-set /p CONFIRM="Proceed with uninstalling? (y/n): "
+echo Uninstalling Extra Museum launcher...
+call %ADB_FOLDER%\adb uninstall com.tgoodwin.emlauncher || goto:uninstalllauncherfailed
 
-if "%CONFIRM%"=="y" (goto uninstall)
-if "%CONFIRM%"=="yes" (goto uninstall)
-if "%CONFIRM%"=="Y" (goto uninstall)
-if "%CONFIRM%"=="YES" (goto uninstall)
-goto:aborted
+:packagexml
+echo.
+echo Pushing clean package restrictions XML...
+call %ADB_FOLDER%\adb push %THIS_PATH%\config\package-restrictions.stock.xml /data/system/users/0/package-restrictions.xml || goto:packagefailed
 
 :uninstall
 echo.
@@ -48,6 +59,11 @@ call %ADB_FOLDER%\adb shell rm -r /data/data/com.retroarch.ra32 || goto:removeda
 echo.
 echo Removing BIOS/ROMs etc....
 call %ADB_FOLDER%\adb shell rm -r /system/media/GAME-EXTRA || goto:removeromsfailed
+
+:reboot
+echo.
+echo Rebooting...
+call %ADB_FOLDER%\adb shell reboot
 goto:end
 
 :aborted
@@ -56,6 +72,16 @@ echo Aborted, nothing uninstalled
 goto:endpause
 
 REM ----------------------------------- Error States -----------------------------------
+
+:uninstalllauncherfailed
+echo.
+echo Failed to uninstall Extra Museum launcher - was it already removed?
+goto:packagexml
+
+:packagefailed
+echo.
+echo Failed to push clean package restrictions XML - proceeding...
+goto:uninstall
 
 :uninstallfailed
 echo.
@@ -70,7 +96,7 @@ goto:removeroms
 :removeromsfailed
 echo.
 echo Failed to remove ROMs - has the directory been removed?
-goto:end
+goto:reboot
 
 :devicesfailed
 echo.

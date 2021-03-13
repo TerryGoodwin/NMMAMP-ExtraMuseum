@@ -5,7 +5,7 @@ set THIS_PATH=%CD%
 
 echo NMMAMP-ExtraMuseum RetroArch Installer
 echo --------------------------------------
-echo Version 0.1.1.0 by Terry Goodwin
+echo Version 0.1.2.0 by Terry Goodwin
 echo --------------------------------------
 echo Android tools path: %ADB_FOLDER%
 echo Running from path: %THIS_PATH%

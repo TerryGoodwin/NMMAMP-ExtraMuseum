@@ -1,5 +1,5 @@
 # Namco Musem - My Arcade Mini Player - Extra Musem
-Version 0.1.2.0
+Version 0.1.3.0
 
 ### What is this?
 A set of Windows batch files and an Android APK to allow you to install
@@ -96,6 +96,12 @@ This could be for a couple of reasons:
 * Your USB cable isn't transmitting data, only charge - try a different cable!
 
 ## What else can I do?
+
+### extract_stock_roms.bat
+Downloads the `GAME` directory from the device onto yoour computer.
+This directory contains the stock ROMs and related frontend artwork,
+and some other bits and pieces (including a full set of NeoGeo BIOS
+files for some reason...)
 
 ### get_latest_retroarch_config.bat
 Downloads `retroarch.cfg` from the device and places it at

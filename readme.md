@@ -48,6 +48,7 @@ You only have to do this process once to install everything:
 * Rename your RetroArch 32bit APK as `retroarch.apk` and put it in the `retroarch` folder
 * Put any cores you want to use into `retroarch\cores`
 * Put any ROMs, BIOS files etc. you need for RetroArch into `GAME-EXTRA`
+* Put any thumbnails into `retroarch\thumbnails`
 * IMPORTANT! Make sure no other Android devices are connected!
 * Make sure your device is plugged into the computer and turned on
   * IMPORTANT! Make sure it's finished booting before continuing...
@@ -108,6 +109,11 @@ Downloads `retroarch.cfg` from the device and places it at
 `retroarch\retroarch.new.cfg` so you can make new changes, then push
 them back to the device.
 
+### get_latest_retroarch_core_overrides.bat
+Downloads the `config` directory from the device and places it at
+`retroarch\config` - this is mostly core overrides, mostly around
+screen placement. Do this before making changes to those core overrides.
+
 ### install_launcher.bat
 (Re-)Installs the launcher APK from frontend\emlauncher.apk
 
@@ -120,18 +126,27 @@ If you want to make manual changes to the `retroarch.cfg` this is how
 you get them back on the device. NOTE! If you've made any changes ON
 the device, they won't be reflected here until you run...
 
+### install_retroarch_core_overrides.bat
+Uploads `retroarch\config` to the device. Make manual changes to core
+overrides and remaps and run this to get them into RetroArch. Remember
+to use `get_latest_retroarch_core_overrides.bat` beforehand.
+
 ### install_retroarch_cores.bat
 Re-copies the contents of `retroarch\cores` to your device. This is not
 a sync - if you delete cores locally and then run this, they won't be
 removed from your device.
 
+### install_retroarch_thumbnails.bat
+Copies the contents of `retroarch\thumbnails` to your device. There's an
+example directory to show the expected directory structure - use PNGs
+that are the same name as your game names as defined in RetroArch's
+playlists after importing the ROMs (so probably NOT the same name as
+your ROMs.) See RetroArch documentation for more details.
+
 ### install_roms.bat
 Re-copies the contents of `GAME-EXTRA` to your device. This is not a
 sync - if you delete ROMs locally and then run this, they won't be
 removed from your device.
-
-### reboot_device.bat
-Reboots the device and takes you back to the stock UI.
 
 ### remove_all.bat
 Uninstalls everything from the device that's been put there by these

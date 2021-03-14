@@ -5,7 +5,7 @@ set THIS_PATH=%CD%
 
 echo NMMAMP-ExtraMuseum RetroArch Installer
 echo --------------------------------------
-echo Version 0.1.2.0 by Terry Goodwin
+echo Version 0.1.3.0 by Terry Goodwin
 echo --------------------------------------
 echo Android tools path: %ADB_FOLDER%
 echo Running from path: %THIS_PATH%
@@ -29,6 +29,19 @@ call %ADB_FOLDER%\adb install %THIS_PATH%\retroarch\retroarch.apk || goto:instal
 echo Success - retroarch.apk installed (or was already installed)
 
 echo.
+echo Launching RetroArch for the first time to put all files into place...
+call %ADB_FOLDER%\adb shell monkey -p com.retroarch.ra32 1 || goto:launchfailed
+
+echo.
+echo RetroArch launched.
+echo PLEASE WAIT for it to finish opening and copying files before pressing a key to continue!
+pause
+
+echo.
+echo Stopping RetroArch so we can copy over our config...
+call %ADB_FOLDER%\adb shell am force-stop com.retroarch.ra32
+
+echo.
 echo Pushing purpose-built RetroArch config into place - without this you won't be able to navigate RetroArch
 call %ADB_FOLDER%\adb push %THIS_PATH%\retroarch\retroarch.cfg /mnt/media_rw/sdcard/Android/data/com.retroarch.ra32/files/retroarch.cfg || goto:configfailed
 echo Config push success
@@ -46,6 +59,11 @@ goto:failed
 echo.
 echo Failed to push special RetroArch config - is it in the right place with the right name (retroarch\retroarch.cfg)?
 echo It might be okay if this fails, but if this is your first time running this you won't be able to control the RetroArch menus...
+goto:failed
+
+:launchfailed
+echo.
+echo Failed to launch RetroArch - did it install properly?
 goto:failed
 
 :devicesfailed

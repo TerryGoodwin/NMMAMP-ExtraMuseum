@@ -5,7 +5,7 @@ set THIS_PATH=%CD%
 
 echo NMMAMP-ExtraMuseum Untethered Boot
 echo ----------------------------------
-echo Version 0.1.2.0 by Terry Goodwin
+echo Version 0.1.3.0 by Terry Goodwin
 echo ----------------------------------
 echo Android tools path: %ADB_FOLDER%
 echo Running from path: %THIS_PATH%
@@ -27,6 +27,20 @@ echo.
 echo Installing retroarch.apk - may fail if already installed, but that's fine...
 call %ADB_FOLDER%\adb install %THIS_PATH%\retroarch\retroarch.apk || goto:installfailed
 echo Success - retroarch.apk installed (or was already installed)
+
+:launchretroarch
+echo.
+echo Launching RetroArch for the first time to put all files into place...
+call %ADB_FOLDER%\adb shell monkey -p com.retroarch.ra32 1 || goto:launchfailed
+
+echo.
+echo RetroArch launched.
+echo PLEASE WAIT for it to finish opening and copying files before pressing a key to continue!
+pause
+
+echo.
+echo Stopping RetroArch so we can copy over our config...
+call %ADB_FOLDER%\adb shell am force-stop com.retroarch.ra32
 
 :retroarchconfig
 echo.
@@ -81,6 +95,11 @@ REM ----------------------------------- Error States ---------------------------
 :installfailed
 echo.
 echo Failed to install RetroArch APK - is it in the right place with the right name (retroarch\retroarch.apk)?
+goto:launchretroarch
+
+:launchfailed
+echo.
+echo Failed to launch RetroArch - did it install properly?
 goto:retroarchconfig
 
 :configfailed

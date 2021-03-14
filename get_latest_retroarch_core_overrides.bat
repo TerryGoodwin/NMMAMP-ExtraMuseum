@@ -3,20 +3,16 @@
 set ADB_FOLDER=c:\android\platform-tools
 set THIS_PATH=%CD%
 
-echo NMMAMP-ExtraMuseum RA Config Installer
-echo --------------------------------------
+echo NMMAMP-ExtraMuseum RA Overrides Downloader
+echo ------------------------------------------
 echo Version 0.1.3.0 by Terry Goodwin
-echo --------------------------------------
+echo ------------------------------------------
 echo Android tools path: %ADB_FOLDER%
 echo Running from path: %THIS_PATH%
 
 echo.
-echo Did you download your most recent RetroArch config from your device first before making changes?
-echo If you proceed without doing this you may lose changes you've made.
-echo To download the latest configuration, run get_latest_retroarch_config.bat
-echo.
-echo WARNING! Don't do this while RetroArch is running! Your changes won't
-echo take effect and when you quit RetroArch it will overwrite them anyway!
+echo This will download core overrides from your My Arcade to retroarch\config
+echo If you proceed, any existing configs at that location will be overwritten without asking.
 
 echo.
 set /p CONTINUE="Proceed? (y/n): "
@@ -45,18 +41,17 @@ echo Remounting the file system so we can write to protected areas...
 call %ADB_FOLDER%\adb remount || goto:remountfailed
 
 echo.
-echo Pushing purpose-built RetroArch config into place...
-call %ADB_FOLDER%\adb push %THIS_PATH%\retroarch\retroarch.cfg /mnt/media_rw/sdcard/Android/data/com.retroarch.ra32/files/retroarch.cfg || goto:configfailed
-echo Config push success
+echo Pulling RetroArch config...
+call %ADB_FOLDER%\adb pull /mnt/sdcard/RetroArch/config %THIS_PATH%\retroarch\ || goto:pullfailed
+echo Config pull success
 
 goto:end
 
 REM ----------------------------------- Error States -----------------------------------
 
-:configfailed
+:pullfailed
 echo.
-echo Failed to push special RetroArch config - is it in the right place with the right name (retroarch\retroarch.cfg)?
-echo It might be okay if this fails, but if this is your first time running this you won't be able to control the RetroArch menus...
+echo Failed to pull core overrides - has RetroArch been installed and run on the device?
 goto:endpause
 
 :devicesfailed
@@ -83,13 +78,12 @@ REM ----------------------------------- The End --------------------------------
 
 :aborted
 echo.
-echo Aborted, nothing installed
+echo Aborted, nothing downloaded
 goto:endpause
 
 :end
 echo.
 echo All finished!
-echo To update the config again, first run get_latest_retroarch_config.bat to get the latest, then call install_retroarch_config.bat`
 goto:endpause
 
 :endpause

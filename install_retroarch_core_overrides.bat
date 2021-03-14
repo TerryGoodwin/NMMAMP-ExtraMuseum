@@ -3,20 +3,20 @@
 set ADB_FOLDER=c:\android\platform-tools
 set THIS_PATH=%CD%
 
-echo NMMAMP-ExtraMuseum RA Config Installer
-echo --------------------------------------
+echo NMMAMP-ExtraMuseum RA Overrides Installer
+echo -----------------------------------------
 echo Version 0.1.3.0 by Terry Goodwin
-echo --------------------------------------
+echo -----------------------------------------
 echo Android tools path: %ADB_FOLDER%
 echo Running from path: %THIS_PATH%
 
 echo.
-echo Did you download your most recent RetroArch config from your device first before making changes?
+echo Did you download your most recent overrides from your devices first before making changes?
 echo If you proceed without doing this you may lose changes you've made.
-echo To download the latest configuration, run get_latest_retroarch_config.bat
+echo To download the latest configuration, run get_latest_retroarch_core_overrides.bat
 echo.
-echo WARNING! Don't do this while RetroArch is running! Your changes won't
-echo take effect and when you quit RetroArch it will overwrite them anyway!
+echo WARNING! Don't do this while RetroArch is running! Your changes might not
+echo take effect and may be lost!
 
 echo.
 set /p CONTINUE="Proceed? (y/n): "
@@ -45,9 +45,9 @@ echo Remounting the file system so we can write to protected areas...
 call %ADB_FOLDER%\adb remount || goto:remountfailed
 
 echo.
-echo Pushing purpose-built RetroArch config into place...
-call %ADB_FOLDER%\adb push %THIS_PATH%\retroarch\retroarch.cfg /mnt/media_rw/sdcard/Android/data/com.retroarch.ra32/files/retroarch.cfg || goto:configfailed
-echo Config push success
+echo Pushing purpose-built RetroArch core overrides into place...
+call %ADB_FOLDER%\adb push %THIS_PATH%\retroarch\config /mnt/sdcard/RetroArch/ || goto:configfailed
+echo Overrides push success
 
 goto:end
 
@@ -55,8 +55,7 @@ REM ----------------------------------- Error States ---------------------------
 
 :configfailed
 echo.
-echo Failed to push special RetroArch config - is it in the right place with the right name (retroarch\retroarch.cfg)?
-echo It might be okay if this fails, but if this is your first time running this you won't be able to control the RetroArch menus...
+echo Failed to push core overrides - is the retroarch\configs folder where it should be?
 goto:endpause
 
 :devicesfailed

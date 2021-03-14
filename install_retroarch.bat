@@ -46,6 +46,11 @@ echo Pushing purpose-built RetroArch config into place - without this you won't 
 call %ADB_FOLDER%\adb push %THIS_PATH%\retroarch\retroarch.cfg /mnt/media_rw/sdcard/Android/data/com.retroarch.ra32/files/retroarch.cfg || goto:configfailed
 echo Config push success
 
+echo.
+echo Pushing purpose-built RetroArch core overrides into place...
+call %ADB_FOLDER%\adb push %THIS_PATH%\retroarch\config /mnt/sdcard/RetroArch/ || goto:overridesfailed
+echo Overrides push success
+
 goto:end
 
 REM ----------------------------------- Error States -----------------------------------
@@ -59,6 +64,11 @@ goto:failed
 echo.
 echo Failed to push special RetroArch config - is it in the right place with the right name (retroarch\retroarch.cfg)?
 echo It might be okay if this fails, but if this is your first time running this you won't be able to control the RetroArch menus...
+goto:failed
+
+:overridesfailed
+echo.
+echo Failed to push core overrides - is the retroarch\configs folder where it should be?
 goto:failed
 
 :launchfailed

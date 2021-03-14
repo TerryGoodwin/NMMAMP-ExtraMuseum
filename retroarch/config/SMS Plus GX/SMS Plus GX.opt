@@ -1,0 +1,4 @@
+smsplus_fm_sound = "auto"
+smsplus_hardware = "auto"
+smsplus_region = "auto"
+smsplus_remove_left_border = "disabled"

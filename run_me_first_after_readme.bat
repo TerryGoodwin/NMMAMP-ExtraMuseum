@@ -48,6 +48,11 @@ echo Pushing purpose-built RetroArch config into place...
 call %ADB_FOLDER%\adb push %THIS_PATH%\retroarch\retroarch.cfg /mnt/media_rw/sdcard/Android/data/com.retroarch.ra32/files/retroarch.cfg || goto:configfailed
 echo Config push success
 
+echo.
+echo Pushing purpose-built RetroArch core overrides into place...
+call %ADB_FOLDER%\adb push %THIS_PATH%\retroarch\config /mnt/sdcard/RetroArch/ || goto:overridesfailed
+echo Overrides push success
+
 :retroarchcores
 echo.
 echo Copying over RetroArch cores...
@@ -106,6 +111,12 @@ goto:retroarchconfig
 echo.
 echo Failed to push special RetroArch config - is it in the right place with the right name (retroarch\retroarch.cfg)?
 echo It might be okay if this fails, but if this is your first time running this you won't be able to control the RetroArch menus...
+goto:retroarchcores
+
+:overridesfailed
+echo.
+echo Failed to push core overrides - is the retroarch\configs folder where it should be?
+echo This won't change much more than the position on the screen of the games, so continuing...
 goto:retroarchcores
 
 :coresfailed

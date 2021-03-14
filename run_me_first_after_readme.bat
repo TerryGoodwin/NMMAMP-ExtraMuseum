@@ -65,6 +65,12 @@ echo Copying over BIOS/ROMs etc....
 call %ADB_FOLDER%\adb push %THIS_PATH%\GAME-EXTRA /system/media/ || goto:romsfailed
 echo ROMs push success
 
+:thumbnails
+echo.
+echo Copying over RetroArch thumbnails...
+call %ADB_FOLDER%\adb push %THIS_PATH%\retroarch\thumbnails /data/data/com.retroarch.ra32/ || goto:thumbnailsfailed
+echo Thumbnails push success
+
 :launcher
 echo.
 echo Installing emlauncher.apk from %THIS_PATH%\frontend\emlauncher.apk
@@ -129,6 +135,11 @@ goto:roms
 echo.
 echo Failed to push BIOS/ROMs etc. - has the directory (GAME-EXTRA) been moved or deleted?
 echo It might be okay if this fails, but if this is your first time running this you might not have any ROMs available...
+goto:thumbnails
+
+:thumbnailsfailed
+echo.
+echo Failed to push RetroArch thumbnails - has the directory (retroarch\thumbnails) been moved or deleted?
 goto:launcher
 
 :installlauncherfailed

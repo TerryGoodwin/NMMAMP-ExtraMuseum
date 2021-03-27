@@ -5,7 +5,7 @@ set THIS_PATH=%CD%
 
 echo NMMAMP-ExtraMuseum Remove Extra Museum
 echo --------------------------------------
-echo Version 0.1.2.0 by Terry Goodwin
+echo Version 0.1.4.0 by Terry Goodwin
 echo --------------------------------------
 echo Android tools path: %ADB_FOLDER%
 echo Running from path: %THIS_PATH%
@@ -55,11 +55,6 @@ echo Removing RetroArch data... (should already be gone, but just in case...)
 call %ADB_FOLDER%\adb shell rm -r /mnt/media_rw/sdcard/Android/data/com.retroarch.ra32 || goto:removedatafailed
 call %ADB_FOLDER%\adb shell rm -r /data/data/com.retroarch.ra32 || goto:removedatafailed
 
-:removeroms
-echo.
-echo Removing BIOS/ROMs etc....
-call %ADB_FOLDER%\adb shell rm -r /system/media/GAME-EXTRA || goto:removeromsfailed
-
 :reboot
 echo.
 echo Rebooting...
@@ -91,11 +86,6 @@ goto:removedata
 :removedatafailed
 echo.
 echo Failed to remove RetroArch data - maybe it was already gone?
-goto:removeroms
-
-:removeromsfailed
-echo.
-echo Failed to remove ROMs - has the directory been removed?
 goto:reboot
 
 :devicesfailed

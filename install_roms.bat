@@ -5,7 +5,7 @@ set THIS_PATH=%CD%
 
 echo NMMAMP-ExtraMuseum ROM Installer
 echo --------------------------------
-echo Version 0.1.2.0 by Terry Goodwin
+echo Version 0.1.4.0 by Terry Goodwin
 echo --------------------------------
 echo Android tools path: %ADB_FOLDER%
 echo Running from path: %THIS_PATH%
@@ -25,7 +25,7 @@ call %ADB_FOLDER%\adb remount || goto:remountfailed
 
 echo.
 echo Copying over BIOS/ROMs etc....
-call %ADB_FOLDER%\adb push %THIS_PATH%\GAME-EXTRA /system/media/ || goto:romsfailed
+call %ADB_FOLDER%\adb push %THIS_PATH%\roms /data/data/com.retroarch.ra32 || goto:romsfailed
 echo ROMs push success
 
 goto:end

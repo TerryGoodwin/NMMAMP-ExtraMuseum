@@ -7,7 +7,7 @@ set THIS_PATH=%CD%
 
 echo NMMAMP-ExtraMuseum All ROMs Uninstaller
 echo ---------------------------------------
-echo Version 0.1.2.0 by Terry Goodwin
+echo Version 0.1.4.0 by Terry Goodwin
 echo ---------------------------------------
 echo Android tools path: %ADB_FOLDER%
 echo Running from path: %THIS_PATH%
@@ -27,7 +27,7 @@ call %ADB_FOLDER%\adb remount || goto:remountfailed
 
 echo.
 echo Getting list of installed ROMS...
-call %ADB_FOLDER%\adb shell ls /system/media/GAME-EXTRA || goto:listromsfailed
+call %ADB_FOLDER%\adb shell ls /data/data/com.retroarch.ra32/roms || goto:listromsfailed
 
 echo.
 set /p CONFIRM="Uninstall all ROMs? (y/n): "
@@ -41,8 +41,8 @@ goto:aborted
 :uninstall
 echo.
 echo Uninstalling all ROMs
-call %ADB_FOLDER%\adb shell rm -r /system/media/GAME-EXTRA || goto:removefailed
-call %ADB_FOLDER%\adb shell mkdir /system/media/GAME-EXTRA || goto:removefailed
+call %ADB_FOLDER%\adb shell rm -r /data/data/com.retroarch.ra32/roms || goto:removefailed
+call %ADB_FOLDER%\adb shell mkdir /data/data/com.retroarch.ra32/roms || goto:removefailed
 goto:end
 
 :aborted

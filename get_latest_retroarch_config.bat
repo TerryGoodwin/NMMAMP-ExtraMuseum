@@ -5,7 +5,7 @@ set THIS_PATH=%CD%
 
 echo NMMAMP-ExtraMuseum RA Config Downloader
 echo ---------------------------------------
-echo Version 0.1.1.0 by Terry Goodwin
+echo Version 0.1.4.0 by Terry Goodwin
 echo ---------------------------------------
 echo Android tools path: %ADB_FOLDER%
 echo Running from path: %THIS_PATH%
@@ -42,7 +42,7 @@ call %ADB_FOLDER%\adb remount || goto:remountfailed
 
 echo.
 echo Pulling RetroArch config...
-call %ADB_FOLDER%\adb pull /mnt/media_rw/sdcard/Android/data/com.retroarch.ra32/files/retroarch.cfg %THIS_PATH%\retroarch\retroarch.new.cfg || goto:pullfailed
+call %ADB_FOLDER%\adb pull /mnt/sdcard/Android/data/com.retroarch.ra32/files/retroarch.cfg %THIS_PATH%\retroarch\retroarch.test.cfg || goto:pullfailed
 echo Config pull success
 
 goto:end

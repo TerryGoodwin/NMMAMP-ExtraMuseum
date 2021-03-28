@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/fullscreenBackgroundColor"
+    android:theme="@style/ThemeOverlay.EMLauncher.FullscreenContainer"
+    tools:context=".ListActivity">
+
+    <!-- The primary full-screen view. This can be replaced with whatever view
+         is needed to present your content, e.g. VideoView, SurfaceView,
+         TextureView, etc. -->
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/background_list" />
+
+    <GridView
+        android:id="@+id/gridView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbarThumbVertical="@android:color/transparent"
+        android:columnWidth="50dp"
+        android:gravity="center"
+        android:numColumns="2"
+        android:paddingLeft="35px"
+        android:paddingTop="35px"
+        android:paddingRight="33px"
+        android:paddingBottom="35px"
+        android:verticalSpacing="0px"
+        android:horizontalSpacing="5dp"
+        android:stretchMode="columnWidth" />
+
+    <!-- This FrameLayout insets its children based on system windows using
+         android:fitsSystemWindows. -->
+
+</FrameLayout>

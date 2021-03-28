@@ -6,8 +6,8 @@
         <item name="colorPrimaryVariant">@color/purple_700</item>
         <item name="colorOnPrimary">@color/black</item>
         <!-- Secondary brand color. -->
-        <item name="colorSecondary">@color/teal_200</item>
-        <item name="colorSecondaryVariant">@color/teal_200</item>
+        <item name="colorSecondary">@color/namco_blue</item>
+        <item name="colorSecondaryVariant">@color/namco_blue</item>
         <item name="colorOnSecondary">@color/black</item>
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
@@ -15,7 +15,7 @@
     </style>
 
     <style name="ThemeOverlay.EMLauncher.FullscreenContainer" parent="">
-        <item name="fullscreenBackgroundColor">@color/light_blue_900</item>
-        <item name="fullscreenTextColor">@color/light_blue_A400</item>
+        <item name="fullscreenBackgroundColor">@color/namco_blue</item>
+        <item name="fullscreenTextColor">@color/namco_blue</item>
     </style>
 </resources>

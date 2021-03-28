@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#000000"
+    android:orientation="vertical"
+    android:padding="0dp">
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_gravity="top|left"
+        android:scaleType="centerInside"
+        android:src="@drawable/system_icon_default" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill_horizontal|center_vertical"
+        android:layout_marginLeft="52dp"
+        android:layout_marginRight="20dp"
+        android:fontFamily="monospace"
+        android:text="System Name"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:typeface="monospace" />
+
+    <ImageView
+        android:id="@+id/hilight_left"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:scaleType="fitXY"
+        android:layout_gravity="center_vertical|left"
+        android:layout_marginLeft="32dp"
+        android:src="@drawable/system_select" />
+
+    <ImageView
+        android:id="@+id/hilight_right"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_gravity="center_vertical|right"
+        android:layout_marginRight="0dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/system_select" />
+
+</FrameLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/fullscreenBackgroundColor"
+    android:theme="@style/ThemeOverlay.EMLauncher.FullscreenContainer"
+    tools:context=".FullscreenActivity">
+
+    <ImageView
+        android:id="@+id/fullscreen_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="false"
+        android:cropToPadding="false"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/background_game" />
+
+    <ImageView
+        android:id="@+id/screenshot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_marginTop="35dp"
+        android:baselineAlignBottom="false"
+        android:scaleType="fitCenter"
+        android:src="@drawable/screenshot_default" />
+
+    <TextView
+        android:id="@+id/game_name"
+        android:layout_below="@id/screenshot"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:fontFamily="monospace"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="Game Name That Can Be Quite Long And Needs To Wrap"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:typeface="monospace" />
+
+    <GridView
+        android:id="@+id/gridView"
+        android:layout_below="@id/game_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginBottom="40dp"
+        android:background="#000000"
+        android:gravity="bottom|fill_horizontal"
+        android:horizontalSpacing="0dp"
+        android:numColumns="1"
+        android:scrollbarThumbVertical="@android:color/transparent"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="2dp" />
+
+</RelativeLayout>

@@ -1,0 +1,57 @@
+{
+  "items": [
+    {
+      "label": "Example Game 1",
+      "thumbnail": "/data/data/com.tgoodwin.emlauncher/thumbnails/example1.png",
+      "systems": [
+        {
+          "label": "Example System 1",
+          "path": "/data/data/com.retroarch.ra32/roms/Example1.bin",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_example1_1.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/genesis_plus_gx_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_example1.png"
+        },
+        {
+          "label": "Example System 2",
+          "path": "/data/data/com.retroarch.ra32/roms/Example1.zip",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_example1_2.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/mame2010_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_example2.png"
+        }
+      ]
+    },
+    {
+      "label": "Example Game 2",
+      "thumbnail": "/data/data/com.tgoodwin.emlauncher/thumbnails/example2.png",
+      "systems": [
+        {
+          "label": "Example System 3",
+          "path": "/data/data/com.retroarch.ra32/roms/Example2.nes",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_example2_3.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/nestopia_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_example3.png"
+        }
+      ]
+    },
+    {
+      "label": "Example Game 3",
+      "thumbnail": "/data/data/com.tgoodwin.emlauncher/thumbnails/example3.png",
+      "systems": [
+        {
+          "label": "Example System 4",
+          "path": "/data/data/com.retroarch.ra32/roms/Example3.gb",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_example3_4.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/gambatte_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_example4.png"
+        },
+        {
+          "label": "Example System 5",
+          "path": "/data/data/com.retroarch.ra32/roms/Example3.pce",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_example3_5.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/mednafen_pce_fast_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_example5.png"
+        }
+      ]
+    }
+  ]
+}

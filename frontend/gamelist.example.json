@@ -1,0 +1,1755 @@
+{
+  "items": [
+    {
+      "label": "Ball Jacks",
+      "thumbnail": "/data/data/com.tgoodwin.emlauncher/thumbnails/balljacks.png",
+      "systems": [
+        {
+          "label": "Mega Drive",
+          "path": "/data/data/com.retroarch.ra32/roms/MegaDrive/Ball Jacks (JE) [c][!].bin",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_balljacks_md.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/genesis_plus_gx_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_md.png"
+        }
+      ]
+    },
+    {
+      "label": "Baraduke",
+      "thumbnail": "/data/data/com.tgoodwin.emlauncher/thumbnails/baraduke.png",
+      "systems": [
+        {
+          "label": "Arcade",
+          "path": "/data/data/com.retroarch.ra32/roms/Arcade/baraduke.zip",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_baraduke_arc.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/mame2010_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_arc.png"
+        }
+      ]
+    },
+    {
+      "label": "Baseball World Travellers Journal",
+      "thumbnail": "/data/data/com.tgoodwin.emlauncher/thumbnails/kyuukai.png",
+      "systems": [
+        {
+          "label": "Mega Drive",
+          "path": "/data/data/com.retroarch.ra32/roms/MegaDrive/Kyuukai Douchuuki (Japan).md",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_kyuukai_md.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/genesis_plus_gx_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_md.png"
+        }
+      ]
+    },
+    {
+      "label": "Battle City",
+      "thumbnail": "/data/data/com.tgoodwin.emlauncher/thumbnails/btlecity.png",
+      "systems": [
+        {
+          "label": "Famicom",
+          "path": "/data/data/com.retroarch.ra32/roms/NES/Battle City (VS).nes",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_btlecity_fam.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/nestopia_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_fam.png"
+        },
+        {
+          "label": "Game Boy",
+          "path": "/data/data/com.retroarch.ra32/roms/GameBoy/BattleCity (Japan).gb",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_btlecity_gb.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/gambatte_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_gb.png"
+        }
+      ]
+    },
+    {
+      "label": "Bomb Bee",
+      "thumbnail": "/data/data/com.tgoodwin.emlauncher/thumbnails/bombbee.png",
+      "systems": [
+        {
+          "label": "Arcade",
+          "path": "/data/data/com.retroarch.ra32/roms/Arcade/bombbee.zip",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_bombbee_arc.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/mame2010_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_arc.png"
+        }
+      ]
+    },
+    {
+      "label": "Bravoman",
+      "thumbnail": "/data/data/com.tgoodwin.emlauncher/thumbnails/bravoman.png",
+      "systems": [
+        {
+          "label": "TurboGrafx 16",
+          "path": "/data/data/com.retroarch.ra32/roms/PCEngine/Bravoman (U).pce",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_bravoman_tg16.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/mednafen_pce_fast_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_tg16.png"
+        }
+      ]
+    },
+    {
+      "label": "Burning Force",
+      "thumbnail": "/data/data/com.tgoodwin.emlauncher/thumbnails/burningf.png",
+      "systems": [
+        {
+          "label": "Genesis",
+          "path": "/data/data/com.retroarch.ra32/roms/MegaDrive/Burning Force (U).bin",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_burningf_gen.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/genesis_plus_gx_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_gen.png"
+        }
+      ]
+    },
+    {
+      "label": "Cutie Q",
+      "thumbnail": "/data/data/com.tgoodwin.emlauncher/thumbnails/cutieq.png",
+      "systems": [
+        {
+          "label": "Arcade",
+          "path": "/data/data/com.retroarch.ra32/roms/Arcade/cutieq.zip",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_cutieq_arc.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/mame2010_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_arc.png"
+        }
+      ]
+    },
+    {
+      "label": "Dangerous Seed",
+      "thumbnail": "/data/data/com.tgoodwin.emlauncher/thumbnails/dangseed.png",
+      "systems": [
+        {
+          "label": "Mega Drive",
+          "path": "/data/data/com.retroarch.ra32/roms/MegaDrive/Dangerous Seed (Japan).md",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_dangseed_md.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/genesis_plus_gx_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_md.png"
+        }
+      ]
+    },
+    {
+      "label": "Dig Dug",
+      "thumbnail": "/data/data/com.tgoodwin.emlauncher/thumbnails/digdug.png",
+      "systems": [
+        {
+          "label": "Atari 2600",
+          "path": "/data/data/com.retroarch.ra32/roms/2600/Dig Dug (1983) (Atari).a26",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_digdug_2600.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/stella2014_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_2600.png"
+        },
+        {
+          "label": "Atari 5200",
+          "path": "/data/data/com.retroarch.ra32/roms/5200/DIGDUG.BIN",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_digdug_5200.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/atari800_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_5200.png"
+        },
+        {
+          "label": "Atari 7800",
+          "path": "/data/data/com.retroarch.ra32/roms/7800/Dig Dug (1987) (Atari).a78",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_digdug_7800.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/prosystem_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_7800.png"
+        },
+        {
+          "label": "Game Boy",
+          "path": "/data/data/com.retroarch.ra32/roms/GameBoy/Dig Dug (USA).gb",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_digdug_gb.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/gambatte_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_gb.png"
+        },
+        {
+          "label": "Famicom",
+          "path": "/data/data/com.retroarch.ra32/roms/NES/Dig Dug (J).nes",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_digdug_fam.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/nestopia_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_fam.png"
+        }
+      ]
+    },
+    {
+      "label": "Dig Dug 2",
+      "thumbnail": "/data/data/com.tgoodwin.emlauncher/thumbnails/digdug2.png",
+      "systems": [
+        {
+          "label": "Famicom",
+          "path": "/data/data/com.retroarch.ra32/roms/NES/Dig Dug II (J) [!].nes",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_digdug2_fam.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/nestopia_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_fam.png"
+        }
+      ]
+    },
+    {
+      "label": "Dragon Buster",
+      "thumbnail": "/data/data/com.tgoodwin.emlauncher/thumbnails/drgnbstr.png",
+      "systems": [
+        {
+          "label": "Arcade",
+          "path": "/data/data/com.retroarch.ra32/roms/Arcade/drgnbstr.zip",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_drgnbstr_arc.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/mame2010_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_arc.png"
+        },
+        {
+          "label": "Famicom",
+          "path": "/data/data/com.retroarch.ra32/roms/NES/Dragon Buster (J).nes",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_drgnbstr_fam.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/nestopia_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_fam.png"
+        }
+      ]
+    },
+    {
+      "label": "Dragon Buster 2",
+      "thumbnail": "/data/data/com.tgoodwin.emlauncher/thumbnails/drgnbst2.png",
+      "systems": [
+        {
+          "label": "Famicom",
+          "path": "/data/data/com.retroarch.ra32/roms/NES/Dragon Buster 2 - Yami no Fuuin (J).nes",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_drgnbst2_fam.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/nestopia_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_fam.png"
+        }
+      ]
+    },
+    {
+      "label": "Dragon Saber",
+      "thumbnail": "/data/data/com.tgoodwin.emlauncher/thumbnails/dsaber.png",
+      "systems": [
+        {
+          "label": "PC Engine",
+          "path": "/data/data/com.retroarch.ra32/roms/PCEngine/Dragon Saber - After Story of Dragon Spirit (J).pce",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_dsaber_pce.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/mednafen_pce_fast_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_pce.png"
+        }
+      ]
+    },
+    {
+      "label": "Dragon Spirit",
+      "thumbnail": "/data/data/com.tgoodwin.emlauncher/thumbnails/dspirit.png",
+      "systems": [
+        {
+          "label": "TurboGrafx 16",
+          "path": "/data/data/com.retroarch.ra32/roms/PCEngine/Dragon Spirit (U).pce",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_dspirit_tg16.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/mednafen_pce_fast_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_tg16.png"
+        }
+      ]
+    },
+    {
+      "label": "Erika & Satorus Dream Adventure",
+      "thumbnail": "/data/data/com.tgoodwin.emlauncher/thumbnails/erika.png",
+      "systems": [
+        {
+          "label": "Famicom",
+          "path": "/data/data/com.retroarch.ra32/roms/NES/Erika to Satoru no Yume Bouken (J).nes",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_erika_fam.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/nestopia_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_fam.png"
+        }
+      ]
+    },
+    {
+      "label": "Family Circuit",
+      "thumbnail": "/data/data/com.tgoodwin.emlauncher/thumbnails/famicirc.png",
+      "systems": [
+        {
+          "label": "Famicom",
+          "path": "/data/data/com.retroarch.ra32/roms/NES/Family Circuit (Japan).nes",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_famicirc_fam.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/nestopia_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_fam.png"
+        },
+        {
+          "label": "Famicom 91",
+          "path": "/data/data/com.retroarch.ra32/roms/NES/Family Circuit '91 (Japan) (En).nes",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_famicirc91_fam.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/nestopia_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_fam.png"
+        }
+      ]
+    },
+    {
+      "label": "Family Jockey",
+      "thumbnail": "/data/data/com.tgoodwin.emlauncher/thumbnails/famijock.png",
+      "systems": [
+        {
+          "label": "Famicom",
+          "path": "/data/data/com.retroarch.ra32/roms/NES/Family Jockey (Japan).nes",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_famijock_fam.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/nestopia_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_fam.png"
+        },
+        {
+          "label": "Game Boy",
+          "path": "/data/data/com.retroarch.ra32/roms/GameBoy/Family Jockey (Japan).gb",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_famijock_gb.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/gambatte_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_gb.png"
+        }
+      ]
+    },
+    {
+      "label": "Family Jockey 2",
+      "thumbnail": "/data/data/com.tgoodwin.emlauncher/thumbnails/famijock2.png",
+      "systems": [
+        {
+          "label": "Game Boy",
+          "path": "/data/data/com.retroarch.ra32/roms/GameBoy/Family Jockey 2 - Meiba no Kettou (Japan).gb",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_famijock2_gb.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/gambatte_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_gb.png"
+        }
+      ]
+    },
+    {
+      "label": "Family Tennis",
+      "thumbnail": "/data/data/com.tgoodwin.emlauncher/thumbnails/famiten.png",
+      "systems": [
+        {
+          "label": "Famicom",
+          "path": "/data/data/com.retroarch.ra32/roms/NES/Family Tennis (Japan).nes",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_famiten_fam.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/nestopia_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_fam.png"
+        }
+      ]
+    },
+    {
+      "label": "Final Blaster",
+      "thumbnail": "/data/data/com.tgoodwin.emlauncher/thumbnails/finalblast.png",
+      "systems": [
+        {
+          "label": "PC Engine",
+          "path": "/data/data/com.retroarch.ra32/roms/PCEngine/Final Blaster (J).pce",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_finalblast_pce.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/mednafen_pce_fast_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_pce.png"
+        }
+      ]
+    },
+    {
+      "label": "Final Lap",
+      "thumbnail": "/data/data/com.tgoodwin.emlauncher/thumbnails/finallap.png",
+      "systems": [
+        {
+          "label": "Famicom",
+          "path": "/data/data/com.retroarch.ra32/roms/NES/Final Lap (J).nes",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_finallap_fam.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/nestopia_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_fam.png"
+        }
+      ]
+    },
+    {
+      "label": "Final Lap Twin",
+      "thumbnail": "/data/data/com.tgoodwin.emlauncher/thumbnails/finallapt.png",
+      "systems": [
+        {
+          "label": "TurboGrafx 16",
+          "path": "/data/data/com.retroarch.ra32/roms/PCEngine/Final Lap Twin (U).pce",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_finallapt_tg16.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/mednafen_pce_fast_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_tg16.png"
+        }
+      ]
+    },
+    {
+      "label": "Galaga",
+      "thumbnail": "/data/data/com.tgoodwin.emlauncher/thumbnails/galaga.png",
+      "systems": [
+        {
+          "label": "Atari 7800",
+          "path": "/data/data/com.retroarch.ra32/roms/7800/Galaga (1987) (Atari).a78",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_galaga_7800.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/prosystem_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_7800.png"
+        },
+        {
+          "label": "Game Boy",
+          "path": "/data/data/com.retroarch.ra32/roms/GameBoy/Galaga & Galaxian (Japan) (SGB Enhanced).gb",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_galaga_gb.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/gambatte_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_gb.png"
+        },
+        {
+          "label": "NES",
+          "path": "/data/data/com.retroarch.ra32/roms/NES/Galaga - Demons of Death (U) [!].nes",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_galaga_nes.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/nestopia_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_nes.png"
+        }
+      ]
+    },
+    {
+      "label": "Galaga 88",
+      "thumbnail": "/data/data/com.tgoodwin.emlauncher/thumbnails/galaga2.png",
+      "systems": [
+        {
+          "label": "Game Gear",
+          "path": "/data/data/com.retroarch.ra32/roms/GameGear/Galaga 2 (Europe).gg",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_galaga2_gg.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/smsplus_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_gg.png"
+        },
+        {
+          "label": "PC Engine",
+          "path": "/data/data/com.retroarch.ra32/roms/PCEngine/Galaga '88 (J).pce",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_galaga88_pce.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/mednafen_pce_fast_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_pce.png"
+        },
+        {
+          "label": "TurboGrafx 16",
+          "path": "/data/data/com.retroarch.ra32/roms/PCEngine/Galaga '90 (U).pce",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_galaga90_tg16.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/mednafen_pce_fast_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_tg16.png"
+        }
+      ]
+    },
+    {
+      "label": "Galaxian",
+      "thumbnail": "/data/data/com.tgoodwin.emlauncher/thumbnails/galaxian.png",
+      "systems": [
+        {
+          "label": "Atari 2600",
+          "path": "/data/data/com.retroarch.ra32/roms/2600/Galaxian (1983) (Atari) [!].a26",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_galaxian_2600.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/stella2014_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_2600.png"
+        },
+        {
+          "label": "Atari 5200",
+          "path": "/data/data/com.retroarch.ra32/roms/5200/Galaxian.bin",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_galaxian_5200.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/atari800_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_5200.png"
+        },
+        {
+          "label": "Famicom",
+          "path": "/data/data/com.retroarch.ra32/roms/NES/Galaxian (J).nes",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_galaxian_fam.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/nestopia_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_fam.png"
+        },
+        {
+          "label": "Game Boy",
+          "path": "/data/data/com.retroarch.ra32/roms/GameBoy/Galaga & Galaxian (Japan) (SGB Enhanced).gb",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_galaxian_gb.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/gambatte_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_gb.png"
+        },
+        {
+          "label": "Master System",
+          "path": "/data/data/com.retroarch.ra32/roms/MasterSystem/Galaxian (Korea) (Unl).sms",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_galaxian_sms.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/smsplus_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_sms.png"
+        }
+      ]
+    },
+    {
+      "label": "Gee Bee",
+      "thumbnail": "/data/data/com.tgoodwin.emlauncher/thumbnails/geebee.png",
+      "systems": [
+        {
+          "label": "Arcade",
+          "path": "/data/data/com.retroarch.ra32/roms/Arcade/geebee.zip",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_geebee_arc.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/mame2010_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_arc.png"
+        }
+      ]
+    },
+    {
+      "label": "The Genji and the Heike Clans",
+      "thumbnail": "/data/data/com.tgoodwin.emlauncher/thumbnails/genpeito.png",
+      "systems": [
+        {
+          "label": "PC Engine",
+          "path": "/data/data/com.retroarch.ra32/roms/PCEngine/Genpei Toumaden (J).pce",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_genpeito_pce.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/mednafen_pce_fast_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_pce.png"
+        }
+      ]
+    },
+    {
+      "label": "Great Greed",
+      "thumbnail": "/data/data/com.tgoodwin.emlauncher/thumbnails/ggreed.png",
+      "systems": [
+        {
+          "label": "Game Boy",
+          "path": "/data/data/com.retroarch.ra32/roms/GameBoy/Great Greed (USA).gb",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_ggreed_gb.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/gambatte_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_gb.png"
+        }
+      ]
+    },
+    {
+      "label": "Grobda",
+      "thumbnail": "/data/data/com.tgoodwin.emlauncher/thumbnails/grobda.png",
+      "systems": [
+        {
+          "label": "Arcade",
+          "path": "/data/data/com.retroarch.ra32/roms/Arcade/grobda.zip",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_grobda_arc.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/mame2010_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_arc.png"
+        }
+      ]
+    },
+    {
+      "label": "Hopping Mappy",
+      "thumbnail": "/data/data/com.tgoodwin.emlauncher/thumbnails/hopmappy.png",
+      "systems": [
+        {
+          "label": "Arcade",
+          "path": "/data/data/com.retroarch.ra32/roms/Arcade/hopmappy.zip",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_hopmappy_arc.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/mame2010_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_arc.png"
+        }
+      ]
+    },
+    {
+      "label": "King of Kings",
+      "thumbnail": "/data/data/com.tgoodwin.emlauncher/thumbnails/kingkings.png",
+      "systems": [
+        {
+          "label": "Famicom",
+          "path": "/data/data/com.retroarch.ra32/roms/NES/King of Kings (J).nes",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_kingkings_fam.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/nestopia_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_fam.png"
+        }
+      ]
+    },
+    {
+      "label": "Super Dimension Fortress Macross",
+      "thumbnail": "/data/data/com.tgoodwin.emlauncher/thumbnails/macross.png",
+      "systems": [
+        {
+          "label": "Famicom",
+          "path": "/data/data/com.retroarch.ra32/roms/NES/Choujikuu Yousai - Macross (Japan).nes",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_macross_fam.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/nestopia_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_fam.png"
+        }
+      ]
+    },
+    {
+      "label": "Mappy",
+      "thumbnail": "/data/data/com.tgoodwin.emlauncher/thumbnails/mappy.png",
+      "systems": [
+        {
+          "label": "Famicom",
+          "path": "/data/data/com.retroarch.ra32/roms/NES/Mappy (J).nes",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_mappy_fam.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/nestopia_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_fam.png"
+        },
+        {
+          "label": "Game Gear",
+          "path": "/data/data/com.retroarch.ra32/roms/GameGear/Mappy (J).gg",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_mappy_gg.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/smsplus_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_gg.png"
+        }
+      ]
+    },
+    {
+      "label": "Mappy Kids",
+      "thumbnail": "/data/data/com.tgoodwin.emlauncher/thumbnails/mapkids.png",
+      "systems": [
+        {
+          "label": "Famicom",
+          "path": "/data/data/com.retroarch.ra32/roms/NES/Mappy Kids (J).nes",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_mapkids_fam.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/nestopia_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_fam.png"
+        }
+      ]
+    },
+    {
+      "label": "Mappy Land",
+      "thumbnail": "/data/data/com.tgoodwin.emlauncher/thumbnails/mapland.png",
+      "systems": [
+        {
+          "label": "Famicom",
+          "path": "/data/data/com.retroarch.ra32/roms/NES/Mappy-Land (J).nes",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_mapland_fam.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/nestopia_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_fam.png"
+        }
+      ]
+    },
+    {
+      "label": "Marchen Maze",
+      "thumbnail": "/data/data/com.tgoodwin.emlauncher/thumbnails/marchenm.png",
+      "systems": [
+        {
+          "label": "PC Engine",
+          "path": "/data/data/com.retroarch.ra32/roms/PCEngine/Marchen Maze (J).pce",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_marchenm_pce.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/mednafen_pce_fast_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_pce.png"
+        }
+      ]
+    },
+    {
+      "label": "Marvel Land",
+      "thumbnail": "/data/data/com.tgoodwin.emlauncher/thumbnails/marvelland.png",
+      "systems": [
+        {
+          "label": "Genesis",
+          "path": "/data/data/com.retroarch.ra32/roms/MegaDrive/Marvel Land (U).bin",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_marvelland_gen.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/genesis_plus_gx_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_gen.png"
+        }
+      ]
+    },
+    {
+      "label": "Digital Devil Story Megami Tensei",
+      "thumbnail": "/data/data/com.tgoodwin.emlauncher/thumbnails/megaten.png",
+      "systems": [
+        {
+          "label": "Famicom",
+          "path": "/data/data/com.retroarch.ra32/roms/NES/Digital Devil Story - Megami Tensei (Japan).nes",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_megaten_fam.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/nestopia_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_fam.png"
+        }
+      ]
+    },
+    {
+      "label": "Digital Devil Story Megami Tensei II",
+      "thumbnail": "/data/data/com.tgoodwin.emlauncher/thumbnails/megaten2.png",
+      "systems": [
+        {
+          "label": "Famicom",
+          "path": "/data/data/com.retroarch.ra32/roms/NES/Digital Devil Story - Megami Tensei II (Japan).nes",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_megaten2_fam.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/nestopia_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_fam.png"
+        }
+      ]
+    },
+    {
+      "label": "Mega Panel",
+      "thumbnail": "/data/data/com.tgoodwin.emlauncher/thumbnails/megapan.png",
+      "systems": [
+        {
+          "label": "Mega Drive",
+          "path": "/data/data/com.retroarch.ra32/roms/MegaDrive/MegaPanel (Japan).md",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_megapan_md.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/genesis_plus_gx_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_md.png"
+        }
+      ]
+    },
+    {
+      "label": "Metro Cross",
+      "thumbnail": "/data/data/com.tgoodwin.emlauncher/thumbnails/metrocrs.png",
+      "systems": [
+        {
+          "label": "Arcade",
+          "path": "/data/data/com.retroarch.ra32/roms/Arcade/metrocrs.zip",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_metrocrs_arc.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/mame2010_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_arc.png"
+        },
+        {
+          "label": "Famicom",
+          "path": "/data/data/com.retroarch.ra32/roms/NES/Metro-Cross (J).nes",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_metrocrs_fam.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/nestopia_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_fam.png"
+        }
+      ]
+    },
+    {
+      "label": "Motos",
+      "thumbnail": "/data/data/com.tgoodwin.emlauncher/thumbnails/motos.png",
+      "systems": [
+        {
+          "label": "Arcade",
+          "path": "/data/data/com.retroarch.ra32/roms/Arcade/motos.zip",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_motos_arc.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/mame2010_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_arc.png"
+        }
+      ]
+    },
+    {
+      "label": "Mr Driller",
+      "thumbnail": "/data/data/com.tgoodwin.emlauncher/thumbnails/driller.png",
+      "systems": [
+        {
+          "label": "Game Boy Color",
+          "path": "/data/data/com.retroarch.ra32/roms/GameBoy/Mr. Driller (U).gbc",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_driller_gbc.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/gambatte_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_gbc.png"
+        }
+      ]
+    },
+    {
+      "label": "Ms Pac Man",
+      "thumbnail": "/data/data/com.tgoodwin.emlauncher/thumbnails/mspacman.png",
+      "systems": [
+        {
+          "label": "Atari 5200",
+          "path": "/data/data/com.retroarch.ra32/roms/5200/MSPACMAN.BIN",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_mspacman_5200.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/atari800_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_5200.png"
+        },
+        {
+          "label": "Atari 7800",
+          "path": "/data/data/com.retroarch.ra32/roms/7800/Ms. Pac-Man (1987) (Atari).a78",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_mspacman_7800.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/prosystem_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_7800.png"
+        },
+        {
+          "label": "Game Boy",
+          "path": "/data/data/com.retroarch.ra32/roms/GameBoy/Ms. Pac-Man (USA).gb",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_mspacman_gb.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/gambatte_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_gb.png"
+        },
+        {
+          "label": "Game Boy Color",
+          "path": "/data/data/com.retroarch.ra32/roms/GameBoy/Ms. Pac-Man - Special Colour Edition (Europe).gbc",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_mspacman_gbc.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/gambatte_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_gbc.png"
+        },
+        {
+          "label": "Master System",
+          "path": "/data/data/com.retroarch.ra32/roms/MasterSystem/Ms. Pac-Man (Europe, Brazil).sms",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_mspacman_sms.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/smsplus_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_sms.png"
+        },
+        {
+          "label": "NES",
+          "path": "/data/data/com.retroarch.ra32/roms/NES/Ms. Pac-Man (U).nes",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_mspacman_nes.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/nestopia_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_nes.png"
+        }
+      ]
+    },
+    {
+      "label": "Nadia The Secret of Blue Water",
+      "thumbnail": "/data/data/com.tgoodwin.emlauncher/thumbnails/fushigi.png",
+      "systems": [
+        {
+          "label": "Mega Drive",
+          "path": "/data/data/com.retroarch.ra32/roms/MegaDrive/Fushigi no Umi no Nadia (Japan).md",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_fushigi_md.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/genesis_plus_gx_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_md.png"
+        }
+      ]
+    },
+    {
+      "label": "Namco Classic",
+      "thumbnail": "/data/data/com.tgoodwin.emlauncher/thumbnails/namclass.png",
+      "systems": [
+        {
+          "label": "Famicom",
+          "path": "/data/data/com.retroarch.ra32/roms/NES/Namco Classic (J).nes",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_namclass_fam.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/nestopia_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_fam.png"
+        },
+        {
+          "label": "Game Boy",
+          "path": "/data/data/com.retroarch.ra32/roms/GameBoy/Namco Classic (Japan).gb",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_namclass_gb.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/gambatte_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_gb.png"
+        }
+      ]
+    },
+    {
+      "label": "Namco Classic II",
+      "thumbnail": "/data/data/com.tgoodwin.emlauncher/thumbnails/namclass2.png",
+      "systems": [
+        {
+          "label": "Famicom",
+          "path": "/data/data/com.retroarch.ra32/roms/NES/Namco Classic 2 (J).nes",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_namclass2_fam.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/nestopia_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_fam.png"
+        }
+      ]
+    },
+    {
+      "label": "Namco Gallery",
+      "thumbnail": "/data/data/com.tgoodwin.emlauncher/thumbnails/namgall1.png",
+      "systems": [
+        {
+          "label": "Game Boy Vol 1",
+          "path": "/data/data/com.retroarch.ra32/roms/GameBoy/Namco Gallery Vol.1 (Japan) (SGB Enhanced).gb",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_namgall1_gb.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/gambatte_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_gb.png"
+        },
+        {
+          "label": "Game Boy Vol 2",
+          "path": "/data/data/com.retroarch.ra32/roms/GameBoy/Namco Gallery Vol.2 (Japan) (SGB Enhanced).gb",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_namgall2_gb.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/gambatte_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_gb.png"
+        },
+        {
+          "label": "Game Boy Vol 3",
+          "path": "/data/data/com.retroarch.ra32/roms/GameBoy/Namco Gallery Vol.3 (Japan) (SGB Enhanced).gb",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_namgall3_gb.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/gambatte_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_gb.png"
+        }
+      ]
+    },
+    {
+      "label": "Navarone",
+      "thumbnail": "/data/data/com.tgoodwin.emlauncher/thumbnails/navarone.png",
+      "systems": [
+        {
+          "label": "Arcade",
+          "path": "/data/data/com.retroarch.ra32/roms/Arcade/navarone.zip",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_navarone_arc.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/mame2010_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_arc.png"
+        }
+      ]
+    },
+    {
+      "label": "New Rally X",
+      "thumbnail": "/data/data/com.tgoodwin.emlauncher/thumbnails/nrallyx.png",
+      "systems": [
+        {
+          "label": "Arcade",
+          "path": "/data/data/com.retroarch.ra32/roms/Arcade/nrallyx.zip",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_nrallyx_arc.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/mame2010_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_arc.png"
+        }
+      ]
+    },
+    {
+      "label": "Obocchama Kun",
+      "thumbnail": "/data/data/com.tgoodwin.emlauncher/thumbnails/obaccha.png",
+      "systems": [
+        {
+          "label": "PC Engine",
+          "path": "/data/data/com.retroarch.ra32/roms/PCEngine/Obocchamakun (J).pce",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_obaccha_pce.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/mednafen_pce_fast_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_pce.png"
+        }
+      ]
+    },
+    {
+      "label": "Ordyne",
+      "thumbnail": "/data/data/com.tgoodwin.emlauncher/thumbnails/ordyne.png",
+      "systems": [
+        {
+          "label": "TurboGrafx 16",
+          "path": "/data/data/com.retroarch.ra32/roms/PCEngine/Ordyne (U).pce",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_ordyne_tg16.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/mednafen_pce_fast_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_tg16.png"
+        }
+      ]
+    },
+    {
+      "label": "Pac and Pal",
+      "thumbnail": "/data/data/com.tgoodwin.emlauncher/thumbnails/pacnpal.png",
+      "systems": [
+        {
+          "label": "Arcade",
+          "path": "/data/data/com.retroarch.ra32/roms/Arcade/pacnpal.zip",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_pacnpal_arc.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/mame2010_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_arc.png"
+        }
+      ]
+    },
+    {
+      "label": "Pac Attack",
+      "thumbnail": "/data/data/com.tgoodwin.emlauncher/thumbnails/pacattack.png",
+      "systems": [
+        {
+          "label": "Game Boy",
+          "path": "/data/data/com.retroarch.ra32/roms/GameBoy/Pac-Attack (USA) (SGB Enhanced).gb",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_pacattack_gb.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/gambatte_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_gb.png"
+        },
+        {
+          "label": "Game Gear",
+          "path": "/data/data/com.retroarch.ra32/roms/GameGear/Pac-Attack (U) [!].gg",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_pacattack_gg.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/smsplus_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_gg.png"
+        },
+        {
+          "label": "Genesis",
+          "path": "/data/data/com.retroarch.ra32/roms/MegaDrive/Pac-Attack (U).bin",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_pacattack_gen.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/genesis_plus_gx_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_gen.png"
+        }
+      ]
+    },
+    {
+      "label": "Pac In Time",
+      "thumbnail": "/data/data/com.tgoodwin.emlauncher/thumbnails/pacintime.png",
+      "systems": [
+        {
+          "label": "Game Boy",
+          "path": "/data/data/com.retroarch.ra32/roms/GameBoy/Pac-In-Time (USA) (SGB Enhanced).gb",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_pacintime_gb.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/gambatte_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_gb.png"
+        }
+      ]
+    },
+    {
+      "label": "Pac Land",
+      "thumbnail": "/data/data/com.tgoodwin.emlauncher/thumbnails/pacland.png",
+      "systems": [
+        {
+          "label": "Arcade",
+          "path": "/data/data/com.retroarch.ra32/roms/Arcade/pacland.zip",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_pacland_arc.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/mame2010_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_arc.png"
+        },
+        {
+          "label": "Famicom",
+          "path": "/data/data/com.retroarch.ra32/roms/NES/Pac-Land (J).nes",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_pacland_fam.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/nestopia_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_fam.png"
+        },
+        {
+          "label": "TurboGrafx 16",
+          "path": "/data/data/com.retroarch.ra32/roms/PCEngine/Pac-Land (U).pce",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_pacland_tg16.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/mednafen_pce_fast_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_tg16.png"
+        }
+      ]
+    },
+    {
+      "label": "Pac Man",
+      "thumbnail": "/data/data/com.tgoodwin.emlauncher/thumbnails/pacman.png",
+      "systems": [
+        {
+          "label": "Atari 2600",
+          "path": "/data/data/com.retroarch.ra32/roms/2600/Pac-Man (1981) (Atari).a26",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_pacman_2600.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/stella2014_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_2600.png"
+        },
+        {
+          "label": "Atari 5200",
+          "path": "/data/data/com.retroarch.ra32/roms/5200/PACMAN.BIN",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_pacman_5200.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/atari800_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_5200.png"
+        },
+        {
+          "label": "Game Boy",
+          "path": "/data/data/com.retroarch.ra32/roms/GameBoy/Pac-Man (USA).gb",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_pacman_gb.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/gambatte_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_gb.png"
+        },
+        {
+          "label": "Game Boy Color",
+          "path": "/data/data/com.retroarch.ra32/roms/GameBoy/Pac-Man - Special Color Edition (USA) (SGB Enhanced).gbc",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_pacman_gbc.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/gambatte_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_gbc.png"
+        },
+        {
+          "label": "Game Gear",
+          "path": "/data/data/com.retroarch.ra32/roms/GameGear/Pac-Man (USA, Europe).gg",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_pacman_gg.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/smsplus_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_gg.png"
+        },
+        {
+          "label": "Neo Geo Pocket",
+          "path": "/data/data/com.retroarch.ra32/roms/NeoGeoPocketColor/Pac-Man (W).ngc",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_pacman_ngpc.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/mednafen_ngp_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_ngpc.png"
+        },
+        {
+          "label": "NES",
+          "path": "/data/data/com.retroarch.ra32/roms/NES/Pac-Man (U).nes",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_pacman_nes.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/nestopia_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_nes.png"
+        }
+      ]
+    },
+    {
+      "label": "Pac Mania",
+      "thumbnail": "/data/data/com.tgoodwin.emlauncher/thumbnails/pacmania.png",
+      "systems": [
+        {
+          "label": "Genesis",
+          "path": "/data/data/com.retroarch.ra32/roms/MegaDrive/Pac-Mania (U).bin",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_pacmania_gen.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/genesis_plus_gx_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_gen.png"
+        },
+        {
+          "label": "Master System",
+          "path": "/data/data/com.retroarch.ra32/roms/MasterSystem/Pac Mania (UE) [!].sms",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_pacmania_sms.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/smsplus_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_sms.png"
+        },
+        {
+          "label": "NES",
+          "path": "/data/data/com.retroarch.ra32/roms/NES/Pacmania (U).nes",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_pacmania_nes.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/nestopia_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_nes.png"
+        }
+      ]
+    },
+    {
+      "label": "Pac Man Plus",
+      "thumbnail": "/data/data/com.tgoodwin.emlauncher/thumbnails/pacplus.png",
+      "systems": [
+        {
+          "label": "Arcade",
+          "path": "/data/data/com.retroarch.ra32/roms/Arcade/pacplus.zip",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_pacplus_arc.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/mame2010_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_arc.png"
+        }
+      ]
+    },
+    {
+      "label": "Phelios",
+      "thumbnail": "/data/data/com.tgoodwin.emlauncher/thumbnails/phelios.png",
+      "systems": [
+        {
+          "label": "Genesis",
+          "path": "/data/data/com.retroarch.ra32/roms/MegaDrive/Phelios (U) [b1].bin",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_phelios_gen.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/genesis_plus_gx_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_gen.png"
+        }
+      ]
+    },
+    {
+      "label": "Phozon",
+      "thumbnail": "/data/data/com.tgoodwin.emlauncher/thumbnails/phozon.png",
+      "systems": [
+        {
+          "label": "Arcade",
+          "path": "/data/data/com.retroarch.ra32/roms/Arcade/phozon.zip",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_phozon_arc.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/mame2010_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_arc.png"
+        }
+      ]
+    },
+    {
+      "label": "Pocket Jansou",
+      "thumbnail": "/data/data/com.tgoodwin.emlauncher/thumbnails/jansou.png",
+      "systems": [
+        {
+          "label": "Game Gear",
+          "path": "/data/data/com.retroarch.ra32/roms/GameGear/Pocket Jansou (J).gg",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_jansou_gg.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/smsplus_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_gg.png"
+        }
+      ]
+    },
+    {
+      "label": "Pole Position",
+      "thumbnail": "/data/data/com.tgoodwin.emlauncher/thumbnails/polepos.png",
+      "systems": [
+        {
+          "label": "Atari 2600",
+          "path": "/data/data/com.retroarch.ra32/roms/2600/Pole Position (1983) (Atari).a26",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_polepos_2600.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/stella2014_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_2600.png"
+        },
+        {
+          "label": "Atari 5200",
+          "path": "/data/data/com.retroarch.ra32/roms/5200/Pole Position (1983) (Atari).bin",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_polepos_5200.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/atari800_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_5200.png"
+        }
+      ]
+    },
+    {
+      "label": "Pole Position II",
+      "thumbnail": "/data/data/com.tgoodwin.emlauncher/thumbnails/polepos2.png",
+      "systems": [
+        {
+          "label": "Atari 7800",
+          "path": "/data/data/com.retroarch.ra32/roms/7800/Pole Position II (1987) (Atari).a78",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_polepos2_7800.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/prosystem_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_7800.png"
+        }
+      ]
+    },
+    {
+      "label": "Powerball",
+      "thumbnail": "/data/data/com.tgoodwin.emlauncher/thumbnails/powerball.png",
+      "systems": [
+        {
+          "label": "Genesis",
+          "path": "/data/data/com.retroarch.ra32/roms/MegaDrive/Wrestleball (JUE).bin",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_powerball_gen.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/genesis_plus_gx_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_gen.png"
+        }
+      ]
+    },
+    {
+      "label": "Pro Baseball",
+      "thumbnail": "/data/data/com.tgoodwin.emlauncher/thumbnails/probase.png",
+      "systems": [
+        {
+          "label": "Game Boy",
+          "path": "/data/data/com.retroarch.ra32/roms/GameBoy/Extra Bases! (USA).gb",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_probase_gb.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/gambatte_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_gb.png"
+        },
+        {
+          "label": "Game Gear",
+          "path": "/data/data/com.retroarch.ra32/roms/GameGear/Batter Up (U) [!].gg",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_probase_gg.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/smsplus_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_gg.png"
+        },
+        {
+          "label": "NES",
+          "path": "/data/data/com.retroarch.ra32/roms/NES/RBI Baseball (U).nes",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_probase_nes.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/nestopia_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_nes.png"
+        },
+        {
+          "label": "Famicom",
+          "path": "/data/data/com.retroarch.ra32/roms/NES/Pro Yakyuu - Family Stadium (J).nes",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_probase_fam.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/nestopia_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_fam.png"
+        },
+        {
+          "label": "Famicom 87",
+          "path": "/data/data/com.retroarch.ra32/roms/NES/Pro Yakyuu - Family Stadium '87 (Japan).nes",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_probase87_fam.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/nestopia_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_fam.png"
+        },
+        {
+          "label": "Famicom 88",
+          "path": "/data/data/com.retroarch.ra32/roms/NES/Pro Yakyuu - Family Stadium '88 (Japan).nes",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_probase88_fam.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/nestopia_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_fam.png"
+        },
+        {
+          "label": "Famicom 89",
+          "path": "/data/data/com.retroarch.ra32/roms/NES/Famista '89 - Kaimaku Ban!! (Japan).nes",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_probase89_fam.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/nestopia_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_fam.png"
+        },
+        {
+          "label": "Famicom 90",
+          "path": "/data/data/com.retroarch.ra32/roms/NES/Famista '90 (Japan).nes",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_probase90_fam.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/nestopia_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_fam.png"
+        },
+        {
+          "label": "Famicom 91",
+          "path": "/data/data/com.retroarch.ra32/roms/NES/Famista '91 (Japan).nes",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_probase91_fam.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/nestopia_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_fam.png"
+        },
+        {
+          "label": "Famicom 92",
+          "path": "/data/data/com.retroarch.ra32/roms/NES/Famista '92 (Japan).nes",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_probase92_fam.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/nestopia_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_fam.png"
+        },
+        {
+          "label": "Famicom 93",
+          "path": "/data/data/com.retroarch.ra32/roms/NES/Famista '93 (Japan).nes",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_probase93_fam.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/nestopia_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_fam.png"
+        },
+        {
+          "label": "Famicom 94",
+          "path": "/data/data/com.retroarch.ra32/roms/NES/Famista '94 (Japan).nes",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_probase94_fam.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/nestopia_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_fam.png"
+        }
+      ]
+    },
+    {
+      "label": "Pro Baseball World Stadium",
+      "thumbnail": "/data/data/com.tgoodwin.emlauncher/thumbnails/probasews.png",
+      "systems": [
+        {
+          "label": "PC Engine",
+          "path": "/data/data/com.retroarch.ra32/roms/PCEngine/Pro Yakyuu World Stadium (J).pce",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_probasews_pce.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/mednafen_pce_fast_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_pce.png"
+        },
+        {
+          "label": "PC Engine 91",
+          "path": "/data/data/com.retroarch.ra32/roms/PCEngine/Pro Yakyuu World Stadium '91 (J).pce",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_probasews91_pce.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/mednafen_pce_fast_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_pce.png"
+        }
+      ]
+    },
+    {
+      "label": "Pro Tennis World Court",
+      "thumbnail": "/data/data/com.tgoodwin.emlauncher/thumbnails/protennis.png",
+      "systems": [
+        {
+          "label": "PC Engine",
+          "path": "/data/data/com.retroarch.ra32/roms/PCEngine/Pro Tennis World Court (J).pce",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_protennis_pce.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/mednafen_pce_fast_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_pce.png"
+        }
+      ]
+    },
+    {
+      "label": "The Quest of Ki",
+      "thumbnail": "/data/data/com.tgoodwin.emlauncher/thumbnails/questki.png",
+      "systems": [
+        {
+          "label": "Famicom",
+          "path": "/data/data/com.retroarch.ra32/roms/NES/Quest of Ki, The (J).nes",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_questki_fam.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/nestopia_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_fam.png"
+        }
+      ]
+    },
+    {
+      "label": "Rally X",
+      "thumbnail": "/data/data/com.tgoodwin.emlauncher/thumbnails/rallyx.png",
+      "systems": [
+        {
+          "label": "Arcade",
+          "path": "/data/data/com.retroarch.ra32/roms/Arcade/rallyx.zip",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_rallyx_arc.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/mame2010_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_arc.png"
+        },
+        {
+          "label": "SG1000",
+          "path": "/data/data/com.retroarch.ra32/roms/SG1000/Rally-X (Taiwan).sg",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_rallyx_sg1k.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/genesis_plus_gx_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_sg1k.png"
+        }
+      ]
+    },
+    {
+      "label": "Rolling Thunder",
+      "thumbnail": "/data/data/com.tgoodwin.emlauncher/thumbnails/rthunder.png",
+      "systems": [
+        {
+          "label": "Famicom",
+          "path": "/data/data/com.retroarch.ra32/roms/NES/Rolling Thunder (J).nes",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_rthunder_fam.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/nestopia_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_fam.png"
+        }
+      ]
+    },
+    {
+      "label": "Rolling Thunder 2",
+      "thumbnail": "/data/data/com.tgoodwin.emlauncher/thumbnails/rthun2.png",
+      "systems": [
+        {
+          "label": "Genesis",
+          "path": "/data/data/com.retroarch.ra32/roms/MegaDrive/Rolling Thunder 2 (E).bin",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_rthun2_gen.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/genesis_plus_gx_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_gen.png"
+        }
+      ]
+    },
+    {
+      "label": "Samurai Ghost",
+      "thumbnail": "/data/data/com.tgoodwin.emlauncher/thumbnails/samuraig.png",
+      "systems": [
+        {
+          "label": "TurboGrafx 16",
+          "path": "/data/data/com.retroarch.ra32/roms/PCEngine/Samurai Ghost (U).pce",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_samuraig_tg16.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/mednafen_pce_fast_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_tg16.png"
+        }
+      ]
+    },
+    {
+      "label": "Shadow Land",
+      "thumbnail": "/data/data/com.tgoodwin.emlauncher/thumbnails/youkaid.png",
+      "systems": [
+        {
+          "label": "PC Engine",
+          "path": "/data/data/com.retroarch.ra32/roms/PCEngine/Youkai Douchuuki (Japan).pce",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_youkaid_pce.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/mednafen_pce_fast_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_pce.png"
+        }
+      ]
+    },
+    {
+      "label": "Sky Kid",
+      "thumbnail": "/data/data/com.tgoodwin.emlauncher/thumbnails/skykid.png",
+      "systems": [
+        {
+          "label": "Famicom",
+          "path": "/data/data/com.retroarch.ra32/roms/NES/Sky Kid (J).nes",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_skykid_fam.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/nestopia_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_fam.png"
+        }
+      ]
+    },
+    {
+      "label": "SOS",
+      "thumbnail": "/data/data/com.tgoodwin.emlauncher/thumbnails/sos.png",
+      "systems": [
+        {
+          "label": "Arcade",
+          "path": "/data/data/com.retroarch.ra32/roms/Arcade/sos.zip",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_sos_arc.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/mame2010_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_arc.png"
+        }
+      ]
+    },
+    {
+      "label": "Splatterhouse",
+      "thumbnail": "/data/data/com.tgoodwin.emlauncher/thumbnails/splatter.png",
+      "systems": [
+        {
+          "label": "TurboGrafx 16",
+          "path": "/data/data/com.retroarch.ra32/roms/PCEngine/Splatterhouse (U).pce",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_splatter_tg16.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/mednafen_pce_fast_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_tg16.png"
+        }
+      ]
+    },
+    {
+      "label": "Splatterhouse 3",
+      "thumbnail": "/data/data/com.tgoodwin.emlauncher/thumbnails/splatter3.png",
+      "systems": [
+        {
+          "label": "Genesis",
+          "path": "/data/data/com.retroarch.ra32/roms/MegaDrive/Splatterhouse 3 (U).bin",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_splatter3_gen.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/genesis_plus_gx_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_gen.png"
+        }
+      ]
+    },
+    {
+      "label": "Splatterhouse: Naughty Graffiti",
+      "thumbnail": "/data/data/com.tgoodwin.emlauncher/thumbnails/splatwan.png",
+      "systems": [
+        {
+          "label": "Famicom",
+          "path": "/data/data/com.retroarch.ra32/roms/NES/Splatter House - Wanpaku Graffiti (J).nes",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_splatwan_fam.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/nestopia_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_fam.png"
+        }
+      ]
+    },
+    {
+      "label": "Star Luster",
+      "thumbnail": "/data/data/com.tgoodwin.emlauncher/thumbnails/starlust.png",
+      "systems": [
+        {
+          "label": "Famicom",
+          "path": "/data/data/com.retroarch.ra32/roms/NES/Star Luster (VS).nes",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_starlust_fam.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/nestopia_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_fam.png"
+        }
+      ]
+    },
+    {
+      "label": "Star Wars",
+      "thumbnail": "/data/data/com.tgoodwin.emlauncher/thumbnails/starwars.png",
+      "systems": [
+        {
+          "label": "Famicom",
+          "path": "/data/data/com.retroarch.ra32/roms/NES/Star Wars (Namco) (J).nes",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_starwars_fam.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/nestopia_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_fam.png"
+        }
+      ]
+    },
+    {
+      "label": "Super Pac Man",
+      "thumbnail": "/data/data/com.tgoodwin.emlauncher/thumbnails/superpac.png",
+      "systems": [
+        {
+          "label": "Arcade",
+          "path": "/data/data/com.retroarch.ra32/roms/Arcade/superpac.zip",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_superpac_arc.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/mame2010_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_arc.png"
+        }
+      ]
+    },
+    {
+      "label": "Super Xevious Gump no Nazo",
+      "thumbnail": "/data/data/com.tgoodwin.emlauncher/thumbnails/superxev.png",
+      "systems": [
+        {
+          "label": "Famicom",
+          "path": "/data/data/com.retroarch.ra32/roms/NES/Super Xevious - Gump no Nazo (J).nes",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_superxev_fam.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/nestopia_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_fam.png"
+        }
+      ]
+    },
+    {
+      "label": "Tank Battalion",
+      "thumbnail": "/data/data/com.tgoodwin.emlauncher/thumbnails/tankbatt.png",
+      "systems": [
+        {
+          "label": "Arcade",
+          "path": "/data/data/com.retroarch.ra32/roms/Arcade/tankbatt.zip",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_tankbatt_arc.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/mame2010_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_arc.png"
+        },
+        {
+          "label": "SG1000",
+          "path": "/data/data/com.retroarch.ra32/roms/SG1000/Tank Battalion (Taiwan).sg",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_tankbatt_sg1k.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/genesis_plus_gx_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_sg1k.png"
+        }
+      ]
+    },
+    {
+      "label": "Top Striker",
+      "thumbnail": "/data/data/com.tgoodwin.emlauncher/thumbnails/topstriker.png",
+      "systems": [
+        {
+          "label": "Famicom",
+          "path": "/data/data/com.retroarch.ra32/roms/NES/Top Striker (Japan).nes",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_topstriker_fam.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/nestopia_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_fam.png"
+        }
+      ]
+    },
+    {
+      "label": "Tower of Babel",
+      "thumbnail": "/data/data/com.tgoodwin.emlauncher/thumbnails/babel.png",
+      "systems": [
+        {
+          "label": "Famicom",
+          "path": "/data/data/com.retroarch.ra32/roms/NES/Babel no Tou (J).nes",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_babel_fam.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/nestopia_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_fam.png"
+        }
+      ]
+    },
+    {
+      "label": "The Tower of Druaga",
+      "thumbnail": "/data/data/com.tgoodwin.emlauncher/thumbnails/todruaga.png",
+      "systems": [
+        {
+          "label": "Famicom",
+          "path": "/data/data/com.retroarch.ra32/roms/NES/Tower of Druaga, The (J).nes",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_todruaga_fam.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/nestopia_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_fam.png"
+        },
+        {
+          "label": "Game Boy",
+          "path": "/data/data/com.retroarch.ra32/roms/GameBoy/Druaga no Tou (Japan).gb",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_todruaga_gb.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/gambatte_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_gb.png"
+        },
+        {
+          "label": "PC Engine",
+          "path": "/data/data/com.retroarch.ra32/roms/PCEngine/Tower of Druaga, The - Druaga no Tou (J).pce",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_todruaga_pce.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/mednafen_pce_fast_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_pce.png"
+        }
+      ]
+    },
+    {
+      "label": "Undersea Treasure Hunting",
+      "thumbnail": "/data/data/com.tgoodwin.emlauncher/thumbnails/kaitei.png",
+      "systems": [
+        {
+          "label": "Arcade",
+          "path": "/data/data/com.retroarch.ra32/roms/Arcade/kaitei.zip",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_kaitei_arc.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/mame2010_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_arc.png"
+        }
+      ]
+    },
+    {
+      "label": "Valkyrie Legend of the Time Key",
+      "thumbnail": "/data/data/com.tgoodwin.emlauncher/thumbnails/valkyrie.png",
+      "systems": [
+        {
+          "label": "Famicom",
+          "path": "/data/data/com.retroarch.ra32/roms/NES/Walkuere no Bouken - Toki no Kagi Densetsu (J).nes",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_valkyrie_fam.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/nestopia_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_fam.png"
+        }
+      ]
+    },
+    {
+      "label": "The Legend of Valkyrie",
+      "thumbnail": "/data/data/com.tgoodwin.emlauncher/thumbnails/valkyrie2.png",
+      "systems": [
+        {
+          "label": "PC Engine",
+          "path": "/data/data/com.retroarch.ra32/roms/PCEngine/Valkyrie no Densetsu (J).pce",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_valkyrie2_pce.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/mednafen_pce_fast_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_pce.png"
+        }
+      ]
+    },
+    {
+      "label": "Wagyan Land",
+      "thumbnail": "/data/data/com.tgoodwin.emlauncher/thumbnails/wagyanl.png",
+      "systems": [
+        {
+          "label": "Famicom",
+          "path": "/data/data/com.retroarch.ra32/roms/NES/Wagyan Land (Japan).nes",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_wagyanl_fam.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/nestopia_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_fam.png"
+        },
+        {
+          "label": "Game Gear",
+          "path": "/data/data/com.retroarch.ra32/roms/GameGear/Wagyan Land (J).gg",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_wagyanl_gg.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/smsplus_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_gg.png"
+        }
+      ]
+    },
+    {
+      "label": "Wagyan Land 2",
+      "thumbnail": "/data/data/com.tgoodwin.emlauncher/thumbnails/wagyanl2.png",
+      "systems": [
+        {
+          "label": "Famicom",
+          "path": "/data/data/com.retroarch.ra32/roms/NES/Wagyan Land 2 (Japan).nes",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_wagyanl2_fam.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/nestopia_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_fam.png"
+        }
+      ]
+    },
+    {
+      "label": "Wagyan Land 3",
+      "thumbnail": "/data/data/com.tgoodwin.emlauncher/thumbnails/wagyanl3.png",
+      "systems": [
+        {
+          "label": "Famicom",
+          "path": "/data/data/com.retroarch.ra32/roms/NES/Wagyan Land 3 (Japan).nes",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_wagyanl3_fam.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/nestopia_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_fam.png"
+        }
+      ]
+    },
+    {
+      "label": "Waku Waku Shopping",
+      "thumbnail": "/data/data/com.tgoodwin.emlauncher/thumbnails/chibimaru.png",
+      "systems": [
+        {
+          "label": "Mega Drive",
+          "path": "/data/data/com.retroarch.ra32/roms/MegaDrive/Chibi Maruko-chan - Wakuwaku Shopping (Japan).md",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_chibimaru_md.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/genesis_plus_gx_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_md.png"
+        }
+      ]
+    },
+    {
+      "label": "Warp and Warp",
+      "thumbnail": "/data/data/com.tgoodwin.emlauncher/thumbnails/warpwarp.png",
+      "systems": [
+        {
+          "label": "Arcade",
+          "path": "/data/data/com.retroarch.ra32/roms/Arcade/warpwarp.zip",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_warpwarp_arc.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/mame2010_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_arc.png"
+        }
+      ]
+    },
+    {
+      "label": "Warpman",
+      "thumbnail": "/data/data/com.tgoodwin.emlauncher/thumbnails/warpman.png",
+      "systems": [
+        {
+          "label": "Famicom",
+          "path": "/data/data/com.retroarch.ra32/roms/NES/Warpman (Japan).nes",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_warpman_fam.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/nestopia_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_fam.png"
+        }
+      ]
+    },
+    {
+      "label": "WeaponLord",
+      "thumbnail": "/data/data/com.tgoodwin.emlauncher/thumbnails/weaponlo.png",
+      "systems": [
+        {
+          "label": "Genesis",
+          "path": "/data/data/com.retroarch.ra32/roms/MegaDrive/Weaponlord (4).bin",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_weaponlo_gen.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/genesis_plus_gx_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_gen.png"
+        }
+      ]
+    },
+    {
+      "label": "Wonder Momo",
+      "thumbnail": "/data/data/com.tgoodwin.emlauncher/thumbnails/wonmomo.png",
+      "systems": [
+        {
+          "label": "PC Engine",
+          "path": "/data/data/com.retroarch.ra32/roms/PCEngine/Wonder Momo (Japan).pce",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_wonmomo_pce.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/mednafen_pce_fast_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_pce.png"
+        }
+      ]
+    },
+    {
+      "label": "World Circuit",
+      "thumbnail": "/data/data/com.tgoodwin.emlauncher/thumbnails/worldcir.png",
+      "systems": [
+        {
+          "label": "PC Engine",
+          "path": "/data/data/com.retroarch.ra32/roms/PCEngine/World Circuit (Japan).pce",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_worldcir_pce.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/mednafen_pce_fast_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_pce.png"
+        }
+      ]
+    },
+    {
+      "label": "World Jockey",
+      "thumbnail": "/data/data/com.tgoodwin.emlauncher/thumbnails/worldjoc.png",
+      "systems": [
+        {
+          "label": "PC Engine",
+          "path": "/data/data/com.retroarch.ra32/roms/PCEngine/World Jockey (Japan).pce",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_worldjoc_pce.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/mednafen_pce_fast_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_pce.png"
+        }
+      ]
+    },
+    {
+      "label": "Xevious",
+      "thumbnail": "/data/data/com.tgoodwin.emlauncher/thumbnails/xevious.png",
+      "systems": [
+        {
+          "label": "Famicom",
+          "path": "/data/data/com.retroarch.ra32/roms/NES/Xevious (J).nes",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_xevious_fam.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/nestopia_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_fam.png"
+        },
+        {
+          "label": "Master System",
+          "path": "/data/data/com.retroarch.ra32/roms/MasterSystem/Micro Xevious, The (Korea) (Unl).sms",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_xevious_sms.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/smsplus_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_sms.png"
+        }
+      ]
+    },
+    {
+      "label": "Xevious Fardraut Saga",
+      "thumbnail": "/data/data/com.tgoodwin.emlauncher/thumbnails/xeviousf.png",
+      "systems": [
+        {
+          "label": "PC Engine",
+          "path": "/data/data/com.retroarch.ra32/roms/PCEngine/Xevious - Fardraut Saga (Japan).pce",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_xeviousf_pce.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/mednafen_pce_fast_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_pce.png"
+        }
+      ]
+    },
+    {
+      "label": "Youkai Club",
+      "thumbnail": "/data/data/com.tgoodwin.emlauncher/thumbnails/youkaic.png",
+      "systems": [
+        {
+          "label": "Famicom",
+          "path": "/data/data/com.retroarch.ra32/roms/NES/Youkai Club (J).nes",
+          "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_youkaic_fam.png",
+          "core_path": "/data/data/com.retroarch.ra32/cores/nestopia_libretro_android.so",
+          "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_fam.png"
+        }
+      ]
+    }
+  ]
+}

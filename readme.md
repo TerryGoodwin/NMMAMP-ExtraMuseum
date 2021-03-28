@@ -60,19 +60,19 @@ You should then be able to choose from the original game selection or the new fr
 when you boot the device, then use the controls on the device to navigate the frontend
 and play some games! Or, alternatively, go straight into RetroArch.
 
-## Top Meny Choices
+## Top Menu Choices
 Press the following buttons to make your choices:
 
-(A) Original, stock menu and games
-(B) New frontend, customisable by modifying gameslist.json and running `utils/install_launcher_data.bat`
-(Y) Launch directly into the RetroArch frontend
+*(A) Original, stock menu and games
+*(B) New frontend, customisable by modifying gameslist.json and running `utils/install_launcher_data.bat`
+*(Y) Launch directly into the RetroArch frontend
 
 ## Controls
 The biggest hurdle to getting this working was figuring out how to
 translate the built-inc ontrols into something that RetroArch could
 understand. Fortunately the stock software prints every button press
-to the log, so I could see what button codes correspond with which input
-- these have been translated into the `retroarch.cfg` included with the
+to the log, so I could see what button codes correspond with which input.
+These have been translated into the `retroarch.cfg` included with the
 scripts.
 
 ### Action buttons
@@ -208,9 +208,15 @@ Restore the device back to the stock experience - without removing
 anything. Just run set_extra_launcher.bat if you want to get it all
 back again.
 
+## Known Issues
+
+* If something causes a crash, occasionally that will reset the system's launcher choice. This means that when you restart, it will pop up a stock Android selection to choose whether the stock launcher or the new one should start - but you can't click on or select anything. If this happens, run `utils\set_extra_launcher.bat` to reset that choice.
+* Certain RetroArch cores perform very poorly on this device because it's quite low powered - SNES, GBA, and any Arcade games after like 1984 are going to run really poorly, and there's not really anything to be done about it.
+
 ## To Do
 Not that much anymore!
 
+* Make the Reset button take you back to the main menu
 * Add button mappings per core/system so they make more sense.
 * Extend RetroArch core and ROM scripts to allow drag-and-drop of single files
 * macOS version, as this is all just ADB commands anyway...

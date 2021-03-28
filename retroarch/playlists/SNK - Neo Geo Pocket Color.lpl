@@ -1,0 +1,19 @@
+{
+  "version": "1.4",
+  "default_core_path": "",
+  "default_core_name": "",
+  "label_display_mode": 0,
+  "right_thumbnail_mode": 0,
+  "left_thumbnail_mode": 0,
+  "sort_mode": 0,
+  "items": [
+    {
+      "path": "/data/data/com.retroarch.ra32/roms/NeoGeoPocketColor/Pac-Man (W).ngc",
+      "label": "Pac-Man",
+      "core_path": "/data/data/com.retroarch.ra32/cores/mednafen_ngp_libretro_android.so",
+      "core_name": "SNK - Neo Geo Pocket / Color (Beetle NeoPop)",
+      "crc32": "21E8CC15|crc",
+      "db_name": "SNK - Neo Geo Pocket Color.lpl"
+    }
+  ]
+}

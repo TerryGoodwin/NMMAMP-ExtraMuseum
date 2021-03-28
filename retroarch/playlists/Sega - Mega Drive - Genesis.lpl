@@ -1,0 +1,131 @@
+{
+  "version": "1.4",
+  "default_core_path": "",
+  "default_core_name": "",
+  "label_display_mode": 0,
+  "right_thumbnail_mode": 0,
+  "left_thumbnail_mode": 0,
+  "sort_mode": 0,
+  "items": [
+    {
+      "path": "/data/data/com.retroarch.ra32/roms/MegaDrive/Burning Force (U).bin",
+      "label": "Burning Force",
+      "core_path": "/data/data/com.retroarch.ra32/cores/genesis_plus_gx_libretro_android.so",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "BDC8F02C|crc",
+      "db_name": "Sega - Mega Drive - Genesis.lpl"
+    },
+    {
+      "path": "/data/data/com.retroarch.ra32/roms/MegaDrive/Chibi Maruko-chan - Wakuwaku Shopping (Japan).md",
+      "label": "Chibi Maruko-chan - Wakuwaku Shopping",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "91A144B8|crc",
+      "db_name": "Sega - Mega Drive - Genesis.lpl"
+    },
+    {
+      "path": "/data/data/com.retroarch.ra32/roms/MegaDrive/Dangerous Seed (Japan).md",
+      "label": "Dangerous Seed",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "A2990031|crc",
+      "db_name": "Sega - Mega Drive - Genesis.lpl"
+    },
+    {
+      "path": "/data/data/com.retroarch.ra32/roms/MegaDrive/Fushigi no Umi no Nadia (Japan).md",
+      "label": "Fushigi no Umi no Nadia",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "4762062A|crc",
+      "db_name": "Sega - Mega Drive - Genesis.lpl"
+    },
+    {
+      "path": "/data/data/com.retroarch.ra32/roms/MegaDrive/Klax (Japan).md",
+      "label": "Klax",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Mega Drive - Genesis.lpl"
+    },
+    {
+      "path": "/data/data/com.retroarch.ra32/roms/MegaDrive/Kyuukai Douchuuki (Japan).md",
+      "label": "Kyuukai Douchuuki",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "DE48DCE3|crc",
+      "db_name": "Sega - Mega Drive - Genesis.lpl"
+    },
+    {
+      "path": "/data/data/com.retroarch.ra32/roms/MegaDrive/Marvel Land (U).bin",
+      "label": "Marvel Land",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "CD7EEEB7|crc",
+      "db_name": "Sega - Mega Drive - Genesis.lpl"
+    },
+    {
+      "path": "/data/data/com.retroarch.ra32/roms/MegaDrive/Pac-Attack (U).bin",
+      "label": "Pac-Attack",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "5DF382F7|crc",
+      "db_name": "Sega - Mega Drive - Genesis.lpl"
+    },
+    {
+      "path": "/data/data/com.retroarch.ra32/roms/MegaDrive/Pac-Man 2 - The New Adventures (U).bin",
+      "label": "Pac-Man 2 - The New Adventures",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "FE7A7ED1|crc",
+      "db_name": "Sega - Mega Drive - Genesis.lpl"
+    },
+    {
+      "path": "/data/data/com.retroarch.ra32/roms/MegaDrive/Pac-Mania (U).bin",
+      "label": "Pac-Mania",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "74BBA09B|crc",
+      "db_name": "Sega - Mega Drive - Genesis.lpl"
+    },
+    {
+      "path": "/data/data/com.retroarch.ra32/roms/MegaDrive/Rolling Thunder 2 (E).bin",
+      "label": "Rolling Thunder 2",
+      "core_path": "/data/data/com.retroarch.ra32/cores/genesis_plus_gx_libretro_android.so",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "C440F292|crc",
+      "db_name": "Sega - Mega Drive - Genesis.lpl"
+    },
+    {
+      "path": "/data/data/com.retroarch.ra32/roms/MegaDrive/Rolling Thunder 3 (U).bin",
+      "label": "Rolling Thunder 3",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Mega Drive - Genesis.lpl"
+    },
+    {
+      "path": "/data/data/com.retroarch.ra32/roms/MegaDrive/Splatterhouse 2 (E).bin",
+      "label": "Splatterhouse 2",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "2559E03C|crc",
+      "db_name": "Sega - Mega Drive - Genesis.lpl"
+    },
+    {
+      "path": "/data/data/com.retroarch.ra32/roms/MegaDrive/Splatterhouse 3 (U).bin",
+      "label": "Splatterhouse 3",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "00F05D07|crc",
+      "db_name": "Sega - Mega Drive - Genesis.lpl"
+    },
+    {
+      "path": "/data/data/com.retroarch.ra32/roms/MegaDrive/Weaponlord (4).bin",
+      "label": "WeaponLord",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "B9895365|crc",
+      "db_name": "Sega - Mega Drive - Genesis.lpl"
+    }
+  ]
+}

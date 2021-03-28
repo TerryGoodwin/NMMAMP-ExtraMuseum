@@ -1,0 +1,43 @@
+{
+  "version": "1.4",
+  "default_core_path": "",
+  "default_core_name": "",
+  "label_display_mode": 0,
+  "right_thumbnail_mode": 0,
+  "left_thumbnail_mode": 0,
+  "sort_mode": 0,
+  "items": [
+    {
+      "path": "/data/data/com.retroarch.ra32/roms/GameGear/Galaga '91 (J).gg",
+      "label": "Galaga '91",
+      "core_path": "/data/data/com.retroarch.ra32/cores/smsplus_libretro_android.so",
+      "core_name": "Sega - MS/GG (SMS Plus GX)",
+      "crc32": "0593BA24|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/data/com.retroarch.ra32/roms/GameGear/Galaga 2 (Europe).gg",
+      "label": "Galaga 2",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/data/com.retroarch.ra32/roms/GameGear/Mappy (J).gg",
+      "label": "Mappy",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "01D2DD2A|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/data/com.retroarch.ra32/roms/GameGear/Pac-Man (USA, Europe).gg",
+      "label": "Pac-Man",
+      "core_path": "/data/data/com.retroarch.ra32/cores/smsplus_libretro_android.so",
+      "core_name": "Sega - MS/GG (SMS Plus GX)",
+      "crc32": "A16C5E58|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    }
+  ]
+}

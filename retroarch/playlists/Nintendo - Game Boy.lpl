@@ -1,0 +1,91 @@
+{
+  "version": "1.4",
+  "default_core_path": "",
+  "default_core_name": "",
+  "label_display_mode": 0,
+  "right_thumbnail_mode": 0,
+  "left_thumbnail_mode": 0,
+  "sort_mode": 0,
+  "items": [
+    {
+      "path": "/data/data/com.retroarch.ra32/roms/GameBoy/Dig Dug (USA).gb",
+      "label": "Dig Dug",
+      "core_path": "/data/data/com.retroarch.ra32/cores/gambatte_libretro_android.so",
+      "core_name": "Nintendo - Game Boy / Color (Gambatte)",
+      "crc32": "6C742478|crc",
+      "db_name": "Nintendo - Game Boy.lpl"
+    },
+    {
+      "path": "/data/data/com.retroarch.ra32/roms/GameBoy/Great Greed (USA).gb",
+      "label": "Great Greed",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "C4CBF6B1|crc",
+      "db_name": "Nintendo - Game Boy.lpl"
+    },
+    {
+      "path": "/data/data/com.retroarch.ra32/roms/GameBoy/Ms. Pac-Man (USA).gb",
+      "label": "Ms. Pac-Man",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "0E5BB1C4|crc",
+      "db_name": "Nintendo - Game Boy.lpl"
+    },
+    {
+      "path": "/data/data/com.retroarch.ra32/roms/GameBoy/Namco Classic (Japan).gb",
+      "label": "Namco Classic",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "EC3257B3|crc",
+      "db_name": "Nintendo - Game Boy.lpl"
+    },
+    {
+      "path": "/data/data/com.retroarch.ra32/roms/GameBoy/Namco Gallery Vol.1 (Japan) (SGB Enhanced).gb",
+      "label": "Namco Gallery Vol.1",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "1902C6BD|crc",
+      "db_name": "Nintendo - Game Boy.lpl"
+    },
+    {
+      "path": "/data/data/com.retroarch.ra32/roms/GameBoy/Namco Gallery Vol.2 (Japan) (SGB Enhanced).gb",
+      "label": "Namco Gallery Vol.2",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "A69B9260|crc",
+      "db_name": "Nintendo - Game Boy.lpl"
+    },
+    {
+      "path": "/data/data/com.retroarch.ra32/roms/GameBoy/Namco Gallery Vol.3 (Japan) (SGB Enhanced).gb",
+      "label": "Namco Gallery Vol.3",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "7740341E|crc",
+      "db_name": "Nintendo - Game Boy.lpl"
+    },
+    {
+      "path": "/data/data/com.retroarch.ra32/roms/GameBoy/Pac-Attack (USA) (SGB Enhanced).gb",
+      "label": "Pac-Attack",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "94E0AF9C|crc",
+      "db_name": "Nintendo - Game Boy.lpl"
+    },
+    {
+      "path": "/data/data/com.retroarch.ra32/roms/GameBoy/Pac-In-Time (USA) (SGB Enhanced).gb",
+      "label": "Pac-In-Time",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "50A15DC8|crc",
+      "db_name": "Nintendo - Game Boy.lpl"
+    },
+    {
+      "path": "/data/data/com.retroarch.ra32/roms/GameBoy/Pac-Man (USA).gb",
+      "label": "Pac-Man",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "B681E243|crc",
+      "db_name": "Nintendo - Game Boy.lpl"
+    }
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "version": "1.4",
+  "default_core_path": "",
+  "default_core_name": "",
+  "label_display_mode": 0,
+  "right_thumbnail_mode": 0,
+  "left_thumbnail_mode": 0,
+  "sort_mode": 0,
+  "items": [
+    {
+      "path": "/data/data/com.retroarch.ra32/roms/Arcade/baraduke.zip",
+      "label": "Baraduke",
+      "core_path": "/data/data/com.retroarch.ra32/cores/mame2010_libretro_android.so",
+      "core_name": "Arcade (MAME 2010)",
+      "crc32": "E31DB105|crc",
+      "db_name": "Arcade.lpl"
+    },
+    {
+      "path": "/data/data/com.retroarch.ra32/roms/Arcade/bombbee.zip",
+      "label": "Bomb Bee",
+      "core_path": "/data/data/com.retroarch.ra32/cores/mame2010_libretro_android.so",
+      "core_name": "Arcade (MAME 2010)",
+      "crc32": "12908F98|crc",
+      "db_name": "Arcade.lpl"
+    },
+    {
+      "path": "/data/data/com.retroarch.ra32/roms/Arcade/cutieq.zip",
+      "label": "Cutie Q",
+      "core_path": "/data/data/com.retroarch.ra32/cores/mame2010_libretro_android.so",
+      "core_name": "Arcade (MAME 2010)",
+      "crc32": "9C898F38|crc",
+      "db_name": "Arcade.lpl"
+    },
+    {
+      "path": "/data/data/com.retroarch.ra32/roms/Arcade/drgnbstr.zip",
+      "label": "drgnbstr",
+      "core_path": "/data/data/com.retroarch.ra32/cores/mame2010_libretro_android.so",
+      "core_name": "Arcade (MAME 2010)",
+      "crc32": "00000000|crc",
+      "db_name": "Arcade.lpl"
+    },
+    {
+      "path": "/data/data/com.retroarch.ra32/roms/Arcade/geebee.zip",
+      "label": "geebee",
+      "core_path": "/data/data/com.retroarch.ra32/cores/mame2010_libretro_android.so",
+      "core_name": "Arcade (MAME 2010)",
+      "crc32": "00000000|crc",
+      "db_name": "Arcade.lpl"
+    },
+    {
+      "path": "/data/data/com.retroarch.ra32/roms/Arcade/grobda.zip",
+      "label": "Grobda (New Ver.)",
+      "core_path": "/data/data/com.retroarch.ra32/cores/mame2010_libretro_android.so",
+      "core_name": "Arcade (MAME 2010)",
+      "crc32": "13F4F309|crc",
+      "db_name": "Arcade.lpl"
+    },
+    {
+      "path": "/data/data/com.retroarch.ra32/roms/Arcade/hopmappy.zip",
+      "label": "hopmappy",
+      "core_path": "/data/data/com.retroarch.ra32/cores/mame2010_libretro_android.so",
+      "core_name": "Arcade (MAME 2010)",
+      "crc32": "00000000|crc",
+      "db_name": "Arcade.lpl"
+    },
+    {
+      "path": "/data/data/com.retroarch.ra32/roms/Arcade/kaitei.zip",
+      "label": "kaitei",
+      "core_path": "/data/data/com.retroarch.ra32/cores/mame2010_libretro_android.so",
+      "core_name": "Arcade (MAME 2010)",
+      "crc32": "00000000|crc",
+      "db_name": "Arcade.lpl"
+    },
+    {
+      "path": "/data/data/com.retroarch.ra32/roms/Arcade/metrocrs.zip",
+      "label": "metrocrs",
+      "core_path": "/data/data/com.retroarch.ra32/cores/mame2010_libretro_android.so",
+      "core_name": "Arcade (MAME 2010)",
+      "crc32": "00000000|crc",
+      "db_name": "Arcade.lpl"
+    },
+    {
+      "path": "/data/data/com.retroarch.ra32/roms/Arcade/motos.zip",
+      "label": "Motos",
+      "core_path": "/data/data/com.retroarch.ra32/cores/mame2010_libretro_android.so",
+      "core_name": "Arcade (MAME 2010)",
+      "crc32": "FFE7AD59|crc",
+      "db_name": "Arcade.lpl"
+    },
+    {
+      "path": "/data/data/com.retroarch.ra32/roms/Arcade/navarone.zip",
+      "label": "Navarone",
+      "core_path": "/data/data/com.retroarch.ra32/cores/mame2010_libretro_android.so",
+      "core_name": "Arcade (MAME 2010)",
+      "crc32": "4D2FEABE|crc",
+      "db_name": "Arcade.lpl"
+    },
+    {
+      "path": "/data/data/com.retroarch.ra32/roms/Arcade/nrallyx.zip",
+      "label": "New Rally X",
+      "core_path": "/data/data/com.retroarch.ra32/cores/mame2010_libretro_android.so",
+      "core_name": "Arcade (MAME 2010)",
+      "crc32": "B3A4EFBD|crc",
+      "db_name": "Arcade.lpl"
+    },
+    {
+      "path": "/data/data/com.retroarch.ra32/roms/Arcade/pacnpal.zip",
+      "label": "Pac & Pal",
+      "core_path": "/data/data/com.retroarch.ra32/cores/mame2010_libretro_android.so",
+      "core_name": "Arcade (MAME 2010)",
+      "crc32": "8CFD3C9E|crc",
+      "db_name": "Arcade.lpl"
+    },
+    {
+      "path": "/data/data/com.retroarch.ra32/roms/Arcade/pacplus.zip",
+      "label": "Pac-Man Plus",
+      "core_path": "/data/data/com.retroarch.ra32/cores/mame2010_libretro_android.so",
+      "core_name": "Arcade (MAME 2010)",
+      "crc32": "3E1384F6|crc",
+      "db_name": "Arcade.lpl"
+    },
+    {
+      "path": "/data/data/com.retroarch.ra32/roms/Arcade/pacland.zip",
+      "label": "pacland",
+      "core_path": "/data/data/com.retroarch.ra32/cores/mame2010_libretro_android.so",
+      "core_name": "Arcade (MAME 2010)",
+      "crc32": "00000000|crc",
+      "db_name": "Arcade.lpl"
+    },
+    {
+      "path": "/data/data/com.retroarch.ra32/roms/Arcade/phozon.zip",
+      "label": "phozon",
+      "core_path": "/data/data/com.retroarch.ra32/cores/mame2010_libretro_android.so",
+      "core_name": "Arcade (MAME 2010)",
+      "crc32": "00000000|crc",
+      "db_name": "Arcade.lpl"
+    },
+    {
+      "path": "/data/data/com.retroarch.ra32/roms/Arcade/rallyx.zip",
+      "label": "rallyx",
+      "core_path": "/data/data/com.retroarch.ra32/cores/mame2010_libretro_android.so",
+      "core_name": "Arcade (MAME 2010)",
+      "crc32": "00000000|crc",
+      "db_name": "Arcade.lpl"
+    },
+    {
+      "path": "/data/data/com.retroarch.ra32/roms/Arcade/sos.zip",
+      "label": "SOS",
+      "core_path": "/data/data/com.retroarch.ra32/cores/mame2010_libretro_android.so",
+      "core_name": "Arcade (MAME 2010)",
+      "crc32": "AEFF55CA|crc",
+      "db_name": "Arcade.lpl"
+    },
+    {
+      "path": "/data/data/com.retroarch.ra32/roms/Arcade/superpac.zip",
+      "label": "Super Pac-Man",
+      "core_path": "/data/data/com.retroarch.ra32/cores/mame2010_libretro_android.so",
+      "core_name": "Arcade (MAME 2010)",
+      "crc32": "8351B122|crc",
+      "db_name": "Arcade.lpl"
+    },
+    {
+      "path": "/data/data/com.retroarch.ra32/roms/Arcade/tankbatt.zip",
+      "label": "Tank Battalion",
+      "core_path": "/data/data/com.retroarch.ra32/cores/mame2010_libretro_android.so",
+      "core_name": "Arcade (MAME 2010)",
+      "crc32": "00986B0A|crc",
+      "db_name": "Arcade.lpl"
+    },
+    {
+      "path": "/data/data/com.retroarch.ra32/roms/Arcade/warpwarp.zip",
+      "label": "warpwarp",
+      "core_path": "/data/data/com.retroarch.ra32/cores/mame2010_libretro_android.so",
+      "core_name": "Arcade (MAME 2010)",
+      "crc32": "00000000|crc",
+      "db_name": "Arcade.lpl"
+    }
+  ]
+}

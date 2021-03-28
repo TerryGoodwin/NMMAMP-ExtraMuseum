@@ -1,0 +1,35 @@
+{
+  "version": "1.4",
+  "default_core_path": "",
+  "default_core_name": "",
+  "label_display_mode": 0,
+  "right_thumbnail_mode": 0,
+  "left_thumbnail_mode": 0,
+  "sort_mode": 0,
+  "items": [
+    {
+      "path": "/data/data/com.retroarch.ra32/roms/GameBoy/Mr. Driller (U).gbc",
+      "label": "Mr. Driller",
+      "core_path": "/data/data/com.retroarch.ra32/cores/gambatte_libretro_android.so",
+      "core_name": "Nintendo - Game Boy / Color (Gambatte)",
+      "crc32": "492C0EBF|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/data/com.retroarch.ra32/roms/GameBoy/Ms. Pac-Man - Special Colour Edition (Europe).gbc",
+      "label": "Ms. Pac-Man - Special Colour Edition",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "F2335DA9|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/data/com.retroarch.ra32/roms/GameBoy/Pac-Man - Special Color Edition (USA) (SGB Enhanced).gbc",
+      "label": "Pac-Man - Special Color Edition",
+      "core_path": "/data/data/com.retroarch.ra32/cores/gambatte_libretro_android.so",
+      "core_name": "Nintendo - Game Boy / Color (Gambatte)",
+      "crc32": "3485EF86|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    }
+  ]
+}

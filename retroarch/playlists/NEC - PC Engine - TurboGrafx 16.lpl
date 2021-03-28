@@ -1,0 +1,67 @@
+{
+  "version": "1.4",
+  "default_core_path": "",
+  "default_core_name": "",
+  "label_display_mode": 0,
+  "right_thumbnail_mode": 0,
+  "left_thumbnail_mode": 0,
+  "sort_mode": 0,
+  "items": [
+    {
+      "path": "/data/data/com.retroarch.ra32/roms/PCEngine/Dragon Spirit (U).pce",
+      "label": "Dragon Spirit",
+      "core_path": "/data/data/com.retroarch.ra32/cores/mednafen_pce_fast_libretro_android.so",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "086F148C|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/data/com.retroarch.ra32/roms/PCEngine/Galaga '90 (U).pce",
+      "label": "Galaga '90",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "2909DEC6|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/data/com.retroarch.ra32/roms/PCEngine/Ordyne (U).pce",
+      "label": "Ordyne",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "E7BF2A74|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/data/com.retroarch.ra32/roms/PCEngine/Pac-Land (U).pce",
+      "label": "Pac-Land",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "D6E30CCD|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/data/com.retroarch.ra32/roms/PCEngine/Splatterhouse (U).pce",
+      "label": "Splatterhouse",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "D00CA74F|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/data/com.retroarch.ra32/roms/PCEngine/Wonder Momo (Japan).pce",
+      "label": "Wonder Momo",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "59D07314|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/data/com.retroarch.ra32/roms/PCEngine/Youkai Douchuuki (Japan).pce",
+      "label": "Youkai Douchuuki",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "F131B706|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    }
+  ]
+}

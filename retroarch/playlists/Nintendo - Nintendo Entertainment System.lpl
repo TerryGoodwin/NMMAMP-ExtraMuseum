@@ -1,0 +1,147 @@
+{
+  "version": "1.4",
+  "default_core_path": "",
+  "default_core_name": "",
+  "label_display_mode": 0,
+  "right_thumbnail_mode": 0,
+  "left_thumbnail_mode": 0,
+  "sort_mode": 0,
+  "items": [
+    {
+      "path": "/data/data/com.retroarch.ra32/roms/NES/Babel no Tou (J).nes",
+      "label": "Babel no Tou",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "154A31B6|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/data/com.retroarch.ra32/roms/NES/Dig Dug (J).nes",
+      "label": "Dig Dug",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "3AE8289A|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/data/com.retroarch.ra32/roms/NES/Dragon Buster (J).nes",
+      "label": "Dragon Buster",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "ABB83B0F|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/data/com.retroarch.ra32/roms/NES/Tower of Druaga, The (J).nes",
+      "label": "Druaga no Tou",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "0C045FB9|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/data/com.retroarch.ra32/roms/NES/Erika to Satoru no Yume Bouken (J).nes",
+      "label": "Erika to Satoru no Yume Bouken",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "1E6A5A77|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/data/com.retroarch.ra32/roms/NES/Final Lap (J).nes",
+      "label": "Final Lap",
+      "core_path": "/data/data/com.retroarch.ra32/cores/nestopia_libretro_android.so",
+      "core_name": "Nintendo - NES / Famicom (Nestopia UE)",
+      "crc32": "A65568A9|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/data/com.retroarch.ra32/roms/NES/Galaga (J).nes",
+      "label": "Galaga",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "628D22DE|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/data/com.retroarch.ra32/roms/NES/King of Kings (J).nes",
+      "label": "King of Kings",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "F3C8E91E|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/data/com.retroarch.ra32/roms/NES/Mappy (J).nes",
+      "label": "Mappy",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "3F0E8E0A|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/data/com.retroarch.ra32/roms/NES/Namco Classic (J).nes",
+      "label": "Namco Classic",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "6B7015F3|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/data/com.retroarch.ra32/roms/NES/Namco Classic 2 (J).nes",
+      "label": "Namco Classic II",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "4F630A61|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/data/com.retroarch.ra32/roms/NES/Pac-Man (U).nes",
+      "label": "Pac-Man",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "22276A55|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/data/com.retroarch.ra32/roms/NES/Splatter House - Wanpaku Graffiti (J).nes",
+      "label": "Splatter House - Wanpaku Graffiti",
+      "core_path": "/data/data/com.retroarch.ra32/cores/nestopia_libretro_android.so",
+      "core_name": "Nintendo - NES / Famicom (Nestopia UE)",
+      "crc32": "B7EEB48B|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/data/com.retroarch.ra32/roms/NES/Star Wars (Namco) (J).nes",
+      "label": "Star Wars",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "CCE17A0E|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/data/com.retroarch.ra32/roms/NES/Super Xevious - Gump no Nazo (J).nes",
+      "label": "Super Xevious - Gump no Nazo",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "B6C7E249|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/data/com.retroarch.ra32/roms/NES/Walkuere no Bouken - Toki no Kagi Densetsu (J).nes",
+      "label": "Valkyrie no Bouken - Toki no Kagi Densetsu",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "5915B843|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/data/com.retroarch.ra32/roms/NES/Youkai Club (J).nes",
+      "label": "Youkai Club",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "7FCEFE0C|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    }
+  ]
+}

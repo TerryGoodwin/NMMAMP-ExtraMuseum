@@ -5,7 +5,7 @@ set THIS_PATH=%CD%
 
 echo NMMAMP-ExtraMuseum ROM Installer
 echo --------------------------------
-echo Version 0.1.4.0 by Terry Goodwin
+echo Version 0.1.4.1 by Terry Goodwin
 echo --------------------------------
 echo Android tools path: %ADB_FOLDER%
 echo Running from path: %THIS_PATH%
@@ -24,9 +24,17 @@ echo Remounting the file system so we can write to protected areas...
 call %ADB_FOLDER%\adb remount || goto:remountfailed
 
 echo.
-echo Copying over BIOS/ROMs etc....
+echo Copying over ROMs...
 call %ADB_FOLDER%\adb push %THIS_PATH%\roms /data/data/com.retroarch.ra32 || goto:romsfailed
 echo ROMs push success
+
+:bios
+echo.
+echo Copying over BIOS...
+call %ADB_FOLDER%\adb push %THIS_PATH%\bios /mnt/sdcard/RetroArch || goto:biosfailed
+call %ADB_FOLDER%\adb shell cp /mnt/sdcard/RetroArch/bios/* /mnt/sdcard/RetroArch/ || goto:biosfailed
+call %ADB_FOLDER%\adb shell rm -r /mnt/sdcard/RetroArch/bios || goto:biosfailed
+echo BIOS push success
 
 goto:end
 
@@ -34,8 +42,14 @@ REM ----------------------------------- Error States ---------------------------
 
 :romsfailed
 echo.
-echo Failed to push BIOS/ROMs etc. - has the directory (GAME-EXTRA) been moved or deleted?
+echo Failed to push ROMs - has the directory (roms) been moved or deleted?
 echo It might be okay if this fails, but if this is your first time running this you might not have any ROMs available...
+goto:bios
+
+:biosfailed
+echo.
+echo Failed to push BIOS files - has the directory (bios) been moved or deleted?
+echo It might be okay if this fails, but if this is your first time running this you might not have any BIOS files available...
 goto:endpause
 
 :devicesfailed
@@ -63,8 +77,8 @@ REM ----------------------------------- The End --------------------------------
 :end
 echo.
 echo All finished!
-echo To add more ROMS run this file again.
-echo Note that removing ROMs from GAME-EXTRA and running this again will not delete them from your device.
+echo To add more ROMS/BIOS files run this file again.
+echo Note that removing ROMs from /roms and running this again will not delete them from your device.
 goto:endpause
 
 :endpause

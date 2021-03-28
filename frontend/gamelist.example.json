@@ -47,7 +47,7 @@
           "label": "Famicom",
           "path": "/data/data/com.retroarch.ra32/roms/NES/Battle City (VS).nes",
           "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_btlecity_fam.png",
-          "core_path": "/data/data/com.retroarch.ra32/cores/nestopia_libretro_android.so",
+          "core_path": "/data/data/com.retroarch.ra32/cores/fceumm_libretro_android.so",
           "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_fam.png"
         },
         {
@@ -160,7 +160,7 @@
           "label": "Famicom",
           "path": "/data/data/com.retroarch.ra32/roms/NES/Dig Dug (J).nes",
           "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_digdug_fam.png",
-          "core_path": "/data/data/com.retroarch.ra32/cores/nestopia_libretro_android.so",
+          "core_path": "/data/data/com.retroarch.ra32/cores/fceumm_libretro_android.so",
           "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_fam.png"
         }
       ]
@@ -173,7 +173,7 @@
           "label": "Famicom",
           "path": "/data/data/com.retroarch.ra32/roms/NES/Dig Dug II (J) [!].nes",
           "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_digdug2_fam.png",
-          "core_path": "/data/data/com.retroarch.ra32/cores/nestopia_libretro_android.so",
+          "core_path": "/data/data/com.retroarch.ra32/cores/fceumm_libretro_android.so",
           "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_fam.png"
         }
       ]
@@ -193,7 +193,7 @@
           "label": "Famicom",
           "path": "/data/data/com.retroarch.ra32/roms/NES/Dragon Buster (J).nes",
           "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_drgnbstr_fam.png",
-          "core_path": "/data/data/com.retroarch.ra32/cores/nestopia_libretro_android.so",
+          "core_path": "/data/data/com.retroarch.ra32/cores/fceumm_libretro_android.so",
           "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_fam.png"
         }
       ]
@@ -206,7 +206,7 @@
           "label": "Famicom",
           "path": "/data/data/com.retroarch.ra32/roms/NES/Dragon Buster 2 - Yami no Fuuin (J).nes",
           "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_drgnbst2_fam.png",
-          "core_path": "/data/data/com.retroarch.ra32/cores/nestopia_libretro_android.so",
+          "core_path": "/data/data/com.retroarch.ra32/cores/fceumm_libretro_android.so",
           "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_fam.png"
         }
       ]
@@ -245,7 +245,7 @@
           "label": "Famicom",
           "path": "/data/data/com.retroarch.ra32/roms/NES/Erika to Satoru no Yume Bouken (J).nes",
           "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_erika_fam.png",
-          "core_path": "/data/data/com.retroarch.ra32/cores/nestopia_libretro_android.so",
+          "core_path": "/data/data/com.retroarch.ra32/cores/fceumm_libretro_android.so",
           "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_fam.png"
         }
       ]
@@ -258,14 +258,14 @@
           "label": "Famicom",
           "path": "/data/data/com.retroarch.ra32/roms/NES/Family Circuit (Japan).nes",
           "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_famicirc_fam.png",
-          "core_path": "/data/data/com.retroarch.ra32/cores/nestopia_libretro_android.so",
+          "core_path": "/data/data/com.retroarch.ra32/cores/fceumm_libretro_android.so",
           "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_fam.png"
         },
         {
           "label": "Famicom 91",
           "path": "/data/data/com.retroarch.ra32/roms/NES/Family Circuit '91 (Japan) (En).nes",
           "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_famicirc91_fam.png",
-          "core_path": "/data/data/com.retroarch.ra32/cores/nestopia_libretro_android.so",
+          "core_path": "/data/data/com.retroarch.ra32/cores/fceumm_libretro_android.so",
           "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_fam.png"
         }
       ]
@@ -278,7 +278,7 @@
           "label": "Famicom",
           "path": "/data/data/com.retroarch.ra32/roms/NES/Family Jockey (Japan).nes",
           "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_famijock_fam.png",
-          "core_path": "/data/data/com.retroarch.ra32/cores/nestopia_libretro_android.so",
+          "core_path": "/data/data/com.retroarch.ra32/cores/fceumm_libretro_android.so",
           "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_fam.png"
         },
         {
@@ -311,7 +311,7 @@
           "label": "Famicom",
           "path": "/data/data/com.retroarch.ra32/roms/NES/Family Tennis (Japan).nes",
           "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_famiten_fam.png",
-          "core_path": "/data/data/com.retroarch.ra32/cores/nestopia_libretro_android.so",
+          "core_path": "/data/data/com.retroarch.ra32/cores/fceumm_libretro_android.so",
           "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_fam.png"
         }
       ]
@@ -337,7 +337,7 @@
           "label": "Famicom",
           "path": "/data/data/com.retroarch.ra32/roms/NES/Final Lap (J).nes",
           "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_finallap_fam.png",
-          "core_path": "/data/data/com.retroarch.ra32/cores/nestopia_libretro_android.so",
+          "core_path": "/data/data/com.retroarch.ra32/cores/fceumm_libretro_android.so",
           "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_fam.png"
         }
       ]
@@ -377,7 +377,7 @@
           "label": "NES",
           "path": "/data/data/com.retroarch.ra32/roms/NES/Galaga - Demons of Death (U) [!].nes",
           "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_galaga_nes.png",
-          "core_path": "/data/data/com.retroarch.ra32/cores/nestopia_libretro_android.so",
+          "core_path": "/data/data/com.retroarch.ra32/cores/fceumm_libretro_android.so",
           "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_nes.png"
         }
       ]
@@ -431,7 +431,7 @@
           "label": "Famicom",
           "path": "/data/data/com.retroarch.ra32/roms/NES/Galaxian (J).nes",
           "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_galaxian_fam.png",
-          "core_path": "/data/data/com.retroarch.ra32/cores/nestopia_libretro_android.so",
+          "core_path": "/data/data/com.retroarch.ra32/cores/fceumm_libretro_android.so",
           "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_fam.png"
         },
         {
@@ -523,7 +523,7 @@
           "label": "Famicom",
           "path": "/data/data/com.retroarch.ra32/roms/NES/King of Kings (J).nes",
           "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_kingkings_fam.png",
-          "core_path": "/data/data/com.retroarch.ra32/cores/nestopia_libretro_android.so",
+          "core_path": "/data/data/com.retroarch.ra32/cores/fceumm_libretro_android.so",
           "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_fam.png"
         }
       ]
@@ -536,7 +536,7 @@
           "label": "Famicom",
           "path": "/data/data/com.retroarch.ra32/roms/NES/Choujikuu Yousai - Macross (Japan).nes",
           "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_macross_fam.png",
-          "core_path": "/data/data/com.retroarch.ra32/cores/nestopia_libretro_android.so",
+          "core_path": "/data/data/com.retroarch.ra32/cores/fceumm_libretro_android.so",
           "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_fam.png"
         }
       ]
@@ -549,7 +549,7 @@
           "label": "Famicom",
           "path": "/data/data/com.retroarch.ra32/roms/NES/Mappy (J).nes",
           "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_mappy_fam.png",
-          "core_path": "/data/data/com.retroarch.ra32/cores/nestopia_libretro_android.so",
+          "core_path": "/data/data/com.retroarch.ra32/cores/fceumm_libretro_android.so",
           "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_fam.png"
         },
         {
@@ -569,7 +569,7 @@
           "label": "Famicom",
           "path": "/data/data/com.retroarch.ra32/roms/NES/Mappy Kids (J).nes",
           "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_mapkids_fam.png",
-          "core_path": "/data/data/com.retroarch.ra32/cores/nestopia_libretro_android.so",
+          "core_path": "/data/data/com.retroarch.ra32/cores/fceumm_libretro_android.so",
           "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_fam.png"
         }
       ]
@@ -582,7 +582,7 @@
           "label": "Famicom",
           "path": "/data/data/com.retroarch.ra32/roms/NES/Mappy-Land (J).nes",
           "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_mapland_fam.png",
-          "core_path": "/data/data/com.retroarch.ra32/cores/nestopia_libretro_android.so",
+          "core_path": "/data/data/com.retroarch.ra32/cores/fceumm_libretro_android.so",
           "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_fam.png"
         }
       ]
@@ -621,7 +621,7 @@
           "label": "Famicom",
           "path": "/data/data/com.retroarch.ra32/roms/NES/Digital Devil Story - Megami Tensei (Japan).nes",
           "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_megaten_fam.png",
-          "core_path": "/data/data/com.retroarch.ra32/cores/nestopia_libretro_android.so",
+          "core_path": "/data/data/com.retroarch.ra32/cores/fceumm_libretro_android.so",
           "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_fam.png"
         }
       ]
@@ -634,7 +634,7 @@
           "label": "Famicom",
           "path": "/data/data/com.retroarch.ra32/roms/NES/Digital Devil Story - Megami Tensei II (Japan).nes",
           "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_megaten2_fam.png",
-          "core_path": "/data/data/com.retroarch.ra32/cores/nestopia_libretro_android.so",
+          "core_path": "/data/data/com.retroarch.ra32/cores/fceumm_libretro_android.so",
           "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_fam.png"
         }
       ]
@@ -667,7 +667,7 @@
           "label": "Famicom",
           "path": "/data/data/com.retroarch.ra32/roms/NES/Metro-Cross (J).nes",
           "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_metrocrs_fam.png",
-          "core_path": "/data/data/com.retroarch.ra32/cores/nestopia_libretro_android.so",
+          "core_path": "/data/data/com.retroarch.ra32/cores/fceumm_libretro_android.so",
           "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_fam.png"
         }
       ]
@@ -741,7 +741,7 @@
           "label": "NES",
           "path": "/data/data/com.retroarch.ra32/roms/NES/Ms. Pac-Man (U).nes",
           "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_mspacman_nes.png",
-          "core_path": "/data/data/com.retroarch.ra32/cores/nestopia_libretro_android.so",
+          "core_path": "/data/data/com.retroarch.ra32/cores/fceumm_libretro_android.so",
           "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_nes.png"
         }
       ]
@@ -767,7 +767,7 @@
           "label": "Famicom",
           "path": "/data/data/com.retroarch.ra32/roms/NES/Namco Classic (J).nes",
           "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_namclass_fam.png",
-          "core_path": "/data/data/com.retroarch.ra32/cores/nestopia_libretro_android.so",
+          "core_path": "/data/data/com.retroarch.ra32/cores/fceumm_libretro_android.so",
           "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_fam.png"
         },
         {
@@ -787,7 +787,7 @@
           "label": "Famicom",
           "path": "/data/data/com.retroarch.ra32/roms/NES/Namco Classic 2 (J).nes",
           "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_namclass2_fam.png",
-          "core_path": "/data/data/com.retroarch.ra32/cores/nestopia_libretro_android.so",
+          "core_path": "/data/data/com.retroarch.ra32/cores/fceumm_libretro_android.so",
           "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_fam.png"
         }
       ]
@@ -939,7 +939,7 @@
           "label": "Famicom",
           "path": "/data/data/com.retroarch.ra32/roms/NES/Pac-Land (J).nes",
           "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_pacland_fam.png",
-          "core_path": "/data/data/com.retroarch.ra32/cores/nestopia_libretro_android.so",
+          "core_path": "/data/data/com.retroarch.ra32/cores/fceumm_libretro_android.so",
           "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_fam.png"
         },
         {
@@ -1001,7 +1001,7 @@
           "label": "NES",
           "path": "/data/data/com.retroarch.ra32/roms/NES/Pac-Man (U).nes",
           "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_pacman_nes.png",
-          "core_path": "/data/data/com.retroarch.ra32/cores/nestopia_libretro_android.so",
+          "core_path": "/data/data/com.retroarch.ra32/cores/fceumm_libretro_android.so",
           "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_nes.png"
         }
       ]
@@ -1028,7 +1028,7 @@
           "label": "NES",
           "path": "/data/data/com.retroarch.ra32/roms/NES/Pacmania (U).nes",
           "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_pacmania_nes.png",
-          "core_path": "/data/data/com.retroarch.ra32/cores/nestopia_libretro_android.so",
+          "core_path": "/data/data/com.retroarch.ra32/cores/fceumm_libretro_android.so",
           "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_nes.png"
         }
       ]
@@ -1153,70 +1153,70 @@
           "label": "NES",
           "path": "/data/data/com.retroarch.ra32/roms/NES/RBI Baseball (U).nes",
           "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_probase_nes.png",
-          "core_path": "/data/data/com.retroarch.ra32/cores/nestopia_libretro_android.so",
+          "core_path": "/data/data/com.retroarch.ra32/cores/fceumm_libretro_android.so",
           "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_nes.png"
         },
         {
           "label": "Famicom",
           "path": "/data/data/com.retroarch.ra32/roms/NES/Pro Yakyuu - Family Stadium (J).nes",
           "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_probase_fam.png",
-          "core_path": "/data/data/com.retroarch.ra32/cores/nestopia_libretro_android.so",
+          "core_path": "/data/data/com.retroarch.ra32/cores/fceumm_libretro_android.so",
           "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_fam.png"
         },
         {
           "label": "Famicom 87",
           "path": "/data/data/com.retroarch.ra32/roms/NES/Pro Yakyuu - Family Stadium '87 (Japan).nes",
           "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_probase87_fam.png",
-          "core_path": "/data/data/com.retroarch.ra32/cores/nestopia_libretro_android.so",
+          "core_path": "/data/data/com.retroarch.ra32/cores/fceumm_libretro_android.so",
           "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_fam.png"
         },
         {
           "label": "Famicom 88",
           "path": "/data/data/com.retroarch.ra32/roms/NES/Pro Yakyuu - Family Stadium '88 (Japan).nes",
           "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_probase88_fam.png",
-          "core_path": "/data/data/com.retroarch.ra32/cores/nestopia_libretro_android.so",
+          "core_path": "/data/data/com.retroarch.ra32/cores/fceumm_libretro_android.so",
           "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_fam.png"
         },
         {
           "label": "Famicom 89",
           "path": "/data/data/com.retroarch.ra32/roms/NES/Famista '89 - Kaimaku Ban!! (Japan).nes",
           "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_probase89_fam.png",
-          "core_path": "/data/data/com.retroarch.ra32/cores/nestopia_libretro_android.so",
+          "core_path": "/data/data/com.retroarch.ra32/cores/fceumm_libretro_android.so",
           "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_fam.png"
         },
         {
           "label": "Famicom 90",
           "path": "/data/data/com.retroarch.ra32/roms/NES/Famista '90 (Japan).nes",
           "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_probase90_fam.png",
-          "core_path": "/data/data/com.retroarch.ra32/cores/nestopia_libretro_android.so",
+          "core_path": "/data/data/com.retroarch.ra32/cores/fceumm_libretro_android.so",
           "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_fam.png"
         },
         {
           "label": "Famicom 91",
           "path": "/data/data/com.retroarch.ra32/roms/NES/Famista '91 (Japan).nes",
           "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_probase91_fam.png",
-          "core_path": "/data/data/com.retroarch.ra32/cores/nestopia_libretro_android.so",
+          "core_path": "/data/data/com.retroarch.ra32/cores/fceumm_libretro_android.so",
           "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_fam.png"
         },
         {
           "label": "Famicom 92",
           "path": "/data/data/com.retroarch.ra32/roms/NES/Famista '92 (Japan).nes",
           "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_probase92_fam.png",
-          "core_path": "/data/data/com.retroarch.ra32/cores/nestopia_libretro_android.so",
+          "core_path": "/data/data/com.retroarch.ra32/cores/fceumm_libretro_android.so",
           "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_fam.png"
         },
         {
           "label": "Famicom 93",
           "path": "/data/data/com.retroarch.ra32/roms/NES/Famista '93 (Japan).nes",
           "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_probase93_fam.png",
-          "core_path": "/data/data/com.retroarch.ra32/cores/nestopia_libretro_android.so",
+          "core_path": "/data/data/com.retroarch.ra32/cores/fceumm_libretro_android.so",
           "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_fam.png"
         },
         {
           "label": "Famicom 94",
           "path": "/data/data/com.retroarch.ra32/roms/NES/Famista '94 (Japan).nes",
           "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_probase94_fam.png",
-          "core_path": "/data/data/com.retroarch.ra32/cores/nestopia_libretro_android.so",
+          "core_path": "/data/data/com.retroarch.ra32/cores/fceumm_libretro_android.so",
           "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_fam.png"
         }
       ]
@@ -1262,7 +1262,7 @@
           "label": "Famicom",
           "path": "/data/data/com.retroarch.ra32/roms/NES/Quest of Ki, The (J).nes",
           "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_questki_fam.png",
-          "core_path": "/data/data/com.retroarch.ra32/cores/nestopia_libretro_android.so",
+          "core_path": "/data/data/com.retroarch.ra32/cores/fceumm_libretro_android.so",
           "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_fam.png"
         }
       ]
@@ -1295,7 +1295,7 @@
           "label": "Famicom",
           "path": "/data/data/com.retroarch.ra32/roms/NES/Rolling Thunder (J).nes",
           "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_rthunder_fam.png",
-          "core_path": "/data/data/com.retroarch.ra32/cores/nestopia_libretro_android.so",
+          "core_path": "/data/data/com.retroarch.ra32/cores/fceumm_libretro_android.so",
           "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_fam.png"
         }
       ]
@@ -1347,7 +1347,7 @@
           "label": "Famicom",
           "path": "/data/data/com.retroarch.ra32/roms/NES/Sky Kid (J).nes",
           "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_skykid_fam.png",
-          "core_path": "/data/data/com.retroarch.ra32/cores/nestopia_libretro_android.so",
+          "core_path": "/data/data/com.retroarch.ra32/cores/fceumm_libretro_android.so",
           "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_fam.png"
         }
       ]
@@ -1399,7 +1399,7 @@
           "label": "Famicom",
           "path": "/data/data/com.retroarch.ra32/roms/NES/Splatter House - Wanpaku Graffiti (J).nes",
           "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_splatwan_fam.png",
-          "core_path": "/data/data/com.retroarch.ra32/cores/nestopia_libretro_android.so",
+          "core_path": "/data/data/com.retroarch.ra32/cores/fceumm_libretro_android.so",
           "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_fam.png"
         }
       ]
@@ -1412,7 +1412,7 @@
           "label": "Famicom",
           "path": "/data/data/com.retroarch.ra32/roms/NES/Star Luster (VS).nes",
           "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_starlust_fam.png",
-          "core_path": "/data/data/com.retroarch.ra32/cores/nestopia_libretro_android.so",
+          "core_path": "/data/data/com.retroarch.ra32/cores/fceumm_libretro_android.so",
           "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_fam.png"
         }
       ]
@@ -1425,7 +1425,7 @@
           "label": "Famicom",
           "path": "/data/data/com.retroarch.ra32/roms/NES/Star Wars (Namco) (J).nes",
           "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_starwars_fam.png",
-          "core_path": "/data/data/com.retroarch.ra32/cores/nestopia_libretro_android.so",
+          "core_path": "/data/data/com.retroarch.ra32/cores/fceumm_libretro_android.so",
           "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_fam.png"
         }
       ]
@@ -1451,7 +1451,7 @@
           "label": "Famicom",
           "path": "/data/data/com.retroarch.ra32/roms/NES/Super Xevious - Gump no Nazo (J).nes",
           "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_superxev_fam.png",
-          "core_path": "/data/data/com.retroarch.ra32/cores/nestopia_libretro_android.so",
+          "core_path": "/data/data/com.retroarch.ra32/cores/fceumm_libretro_android.so",
           "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_fam.png"
         }
       ]
@@ -1484,7 +1484,7 @@
           "label": "Famicom",
           "path": "/data/data/com.retroarch.ra32/roms/NES/Top Striker (Japan).nes",
           "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_topstriker_fam.png",
-          "core_path": "/data/data/com.retroarch.ra32/cores/nestopia_libretro_android.so",
+          "core_path": "/data/data/com.retroarch.ra32/cores/fceumm_libretro_android.so",
           "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_fam.png"
         }
       ]
@@ -1497,7 +1497,7 @@
           "label": "Famicom",
           "path": "/data/data/com.retroarch.ra32/roms/NES/Babel no Tou (J).nes",
           "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_babel_fam.png",
-          "core_path": "/data/data/com.retroarch.ra32/cores/nestopia_libretro_android.so",
+          "core_path": "/data/data/com.retroarch.ra32/cores/fceumm_libretro_android.so",
           "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_fam.png"
         }
       ]
@@ -1510,7 +1510,7 @@
           "label": "Famicom",
           "path": "/data/data/com.retroarch.ra32/roms/NES/Tower of Druaga, The (J).nes",
           "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_todruaga_fam.png",
-          "core_path": "/data/data/com.retroarch.ra32/cores/nestopia_libretro_android.so",
+          "core_path": "/data/data/com.retroarch.ra32/cores/fceumm_libretro_android.so",
           "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_fam.png"
         },
         {
@@ -1550,7 +1550,7 @@
           "label": "Famicom",
           "path": "/data/data/com.retroarch.ra32/roms/NES/Walkuere no Bouken - Toki no Kagi Densetsu (J).nes",
           "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_valkyrie_fam.png",
-          "core_path": "/data/data/com.retroarch.ra32/cores/nestopia_libretro_android.so",
+          "core_path": "/data/data/com.retroarch.ra32/cores/fceumm_libretro_android.so",
           "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_fam.png"
         }
       ]
@@ -1576,7 +1576,7 @@
           "label": "Famicom",
           "path": "/data/data/com.retroarch.ra32/roms/NES/Wagyan Land (Japan).nes",
           "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_wagyanl_fam.png",
-          "core_path": "/data/data/com.retroarch.ra32/cores/nestopia_libretro_android.so",
+          "core_path": "/data/data/com.retroarch.ra32/cores/fceumm_libretro_android.so",
           "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_fam.png"
         },
         {
@@ -1596,7 +1596,7 @@
           "label": "Famicom",
           "path": "/data/data/com.retroarch.ra32/roms/NES/Wagyan Land 2 (Japan).nes",
           "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_wagyanl2_fam.png",
-          "core_path": "/data/data/com.retroarch.ra32/cores/nestopia_libretro_android.so",
+          "core_path": "/data/data/com.retroarch.ra32/cores/fceumm_libretro_android.so",
           "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_fam.png"
         }
       ]
@@ -1609,7 +1609,7 @@
           "label": "Famicom",
           "path": "/data/data/com.retroarch.ra32/roms/NES/Wagyan Land 3 (Japan).nes",
           "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_wagyanl3_fam.png",
-          "core_path": "/data/data/com.retroarch.ra32/cores/nestopia_libretro_android.so",
+          "core_path": "/data/data/com.retroarch.ra32/cores/fceumm_libretro_android.so",
           "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_fam.png"
         }
       ]
@@ -1648,7 +1648,7 @@
           "label": "Famicom",
           "path": "/data/data/com.retroarch.ra32/roms/NES/Warpman (Japan).nes",
           "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_warpman_fam.png",
-          "core_path": "/data/data/com.retroarch.ra32/cores/nestopia_libretro_android.so",
+          "core_path": "/data/data/com.retroarch.ra32/cores/fceumm_libretro_android.so",
           "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_fam.png"
         }
       ]
@@ -1713,7 +1713,7 @@
           "label": "Famicom",
           "path": "/data/data/com.retroarch.ra32/roms/NES/Xevious (J).nes",
           "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_xevious_fam.png",
-          "core_path": "/data/data/com.retroarch.ra32/cores/nestopia_libretro_android.so",
+          "core_path": "/data/data/com.retroarch.ra32/cores/fceumm_libretro_android.so",
           "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_fam.png"
         },
         {
@@ -1746,7 +1746,7 @@
           "label": "Famicom",
           "path": "/data/data/com.retroarch.ra32/roms/NES/Youkai Club (J).nes",
           "snap": "/data/data/com.tgoodwin.emlauncher/screenshots/snap_youkaic_fam.png",
-          "core_path": "/data/data/com.retroarch.ra32/cores/nestopia_libretro_android.so",
+          "core_path": "/data/data/com.retroarch.ra32/cores/fceumm_libretro_android.so",
           "icon": "/data/data/com.tgoodwin.emlauncher/systems/system_fam.png"
         }
       ]

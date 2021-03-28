@@ -5,7 +5,7 @@ set THIS_PATH=%CD%
 
 echo NMMAMP-ExtraMuseum RA Data Installer
 echo ------------------------------------
-echo Version 0.1.4.0 by Terry Goodwin
+echo Version 0.1.4.1 by Terry Goodwin
 echo ------------------------------------
 echo Android tools path: %ADB_FOLDER%
 echo Running from path: %THIS_PATH%
@@ -23,6 +23,10 @@ echo.
 echo Remounting the file system so we can write to protected areas...
 call %ADB_FOLDER%\adb remount || goto:remountfailed
 
+echo.
+echo *********************************************************************
+echo Copying over RetroArch config...
+echo *********************************************************************
 echo.
 echo Did you download your most recent RetroArch config from your device first before making changes?
 echo If you proceed without doing this you may lose changes you've made.
@@ -51,6 +55,10 @@ echo Config push success
 
 :overrides
 echo.
+echo *********************************************************************
+echo Copying over RetroArch core overrides...
+echo *********************************************************************
+echo.
 echo Did you download your most recent overrides from your devices first before making changes?
 echo If you proceed without doing this you may lose changes you've made.
 echo To download the latest configuration, run get_latest_retroarch_core_overrides.bat
@@ -77,6 +85,10 @@ call %ADB_FOLDER%\adb push %THIS_PATH%\retroarch\config /mnt/sdcard/RetroArch/ |
 echo Overrides push success
 
 :playlists
+echo.
+echo *********************************************************************
+echo Copying over RetroArch playlists...
+echo *********************************************************************
 echo.
 echo Did you download your most recent playlists from your devices first before making changes?
 echo If you proceed without doing this you may lose changes you've made.
@@ -105,11 +117,39 @@ echo Playlists push success
 
 :cores
 echo.
+echo *********************************************************************
+echo Copying over RetroArch cores...
+echo *********************************************************************
+echo.
+set /p CONTINUE="Proceed? (y/n): "
+
+if "%CONTINUE%"=="y" (goto continue_cores)
+if "%CONTINUE%"=="yes" (goto continue_cores)
+if "%CONTINUE%"=="Y" (goto continue_cores)
+if "%CONTINUE%"=="YES" (goto continue_cores)
+goto:thumbnails
+
+:continue_cores
+echo.
 echo Copying over RetroArch cores...
 call %ADB_FOLDER%\adb push %THIS_PATH%\retroarch\cores /data/data/com.retroarch.ra32/ || goto:coresfailed
 echo Cores push success
 
 :thumbnails
+echo.
+echo *********************************************************************
+echo Copying over RetroArch thumbnails...
+echo *********************************************************************
+echo.
+set /p CONTINUE="Proceed? (y/n): "
+
+if "%CONTINUE%"=="y" (goto continue_thumbnails)
+if "%CONTINUE%"=="yes" (goto continue_thumbnails)
+if "%CONTINUE%"=="Y" (goto continue_thumbnails)
+if "%CONTINUE%"=="YES" (goto continue_thumbnails)
+goto:end
+
+:continue_thumbnails
 echo.
 echo Copying over RetroArch thumbnails...
 call %ADB_FOLDER%\adb push %THIS_PATH%\retroarch\thumbnails /data/data/com.retroarch.ra32/ || goto:thumbnailsfailed

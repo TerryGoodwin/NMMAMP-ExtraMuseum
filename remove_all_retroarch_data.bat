@@ -7,7 +7,7 @@ set THIS_PATH=%CD%
 
 echo NMMAMP-ExtraMuseum All RA Data Uninstaller
 echo ------------------------------------------
-echo Version 0.1.4.0 by Terry Goodwin
+echo Version 0.1.4.1 by Terry Goodwin
 echo ------------------------------------------
 echo Android tools path: %ADB_FOLDER%
 echo Running from path: %THIS_PATH%
@@ -25,6 +25,10 @@ echo.
 echo Remounting the file system so we can write to protected areas...
 call %ADB_FOLDER%\adb remount || goto:remountfailed
 
+echo.
+echo *********************************************************************
+echo Removing RetroArch cores...
+echo *********************************************************************
 echo.
 echo Getting list of installed cores...
 call %ADB_FOLDER%\adb shell ls /data/data/com.retroarch.ra32/cores || goto:listcoresfailed
@@ -46,9 +50,15 @@ call %ADB_FOLDER%\adb shell mkdir /data/data/com.retroarch.ra32/cores || goto:co
 
 :playlists
 echo.
+echo *********************************************************************
+echo Removing RetroArch playlists...
+echo *********************************************************************
+echo.
 echo Getting list of installed playlists...
 call %ADB_FOLDER%\adb shell ls /mnt/sdcard/RetroArch/playlists || goto:listcoresfailed
 
+echo. 
+echo Have you downloaded any playlists you want to keep before removing them?
 echo.
 set /p CONFIRM="Uninstall all playlists? (y/n): "
 
@@ -56,7 +66,7 @@ if "%CONFIRM%"=="y" (goto uninstall_playlists)
 if "%CONFIRM%"=="yes" (goto uninstall_playlists)
 if "%CONFIRM%"=="Y" (goto uninstall_playlists)
 if "%CONFIRM%"=="YES" (goto uninstall_playlists)
-goto:aborted
+goto:thumbnails
 
 :uninstall_playlists
 echo.
@@ -65,6 +75,10 @@ call %ADB_FOLDER%\adb shell rm -r /mnt/sdcard/RetroArch/playlists || goto:playli
 call %ADB_FOLDER%\adb shell mkdir /mnt/sdcard/RetroArch/playlists || goto:playlistsfailed
 
 :thumbnails
+echo.
+echo *********************************************************************
+echo Removing RetroArch thumbnails...
+echo *********************************************************************
 echo.
 set /p CONFIRM="Uninstall all thumbnails? (y/n): "
 
@@ -107,7 +121,7 @@ goto:thumbnails
 :thumbnailsfailed
 echo.
 echo Failed to remove RetroArch thumbnails - has the directory been removed?
-goto:end
+goto:failed
 
 :devicesfailed
 echo.

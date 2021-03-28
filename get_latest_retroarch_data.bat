@@ -5,7 +5,7 @@ set THIS_PATH=%CD%
 
 echo NMMAMP-ExtraMuseum RA Data Downloader
 echo -------------------------------------
-echo Version 0.1.4.0 by Terry Goodwin
+echo Version 0.1.4.1 by Terry Goodwin
 echo -------------------------------------
 echo Android tools path: %ADB_FOLDER%
 echo Running from path: %THIS_PATH%
@@ -24,6 +24,10 @@ echo Remounting the file system so we can write to protected areas...
 call %ADB_FOLDER%\adb remount || goto:remountfailed
 
 echo.
+echo *********************************************************************
+echo Getting RetroArch config...
+echo *********************************************************************
+echo.
 echo This will download retroarch.cfg from your My Arcade to retroarch\retroarch.new.cfg
 echo If you proceed, an existing file at that location with that name will be overwritten without asking.
 
@@ -34,7 +38,7 @@ if "%CONTINUE%"=="y" (goto continue_config)
 if "%CONTINUE%"=="yes" (goto continue_config)
 if "%CONTINUE%"=="Y" (goto continue_config)
 if "%CONTINUE%"=="YES" (goto continue_config)
-goto:aborted
+goto:overrides
 
 :continue_config
 echo.
@@ -42,10 +46,14 @@ echo Proceeding...
 
 echo.
 echo Pulling RetroArch config...
-call %ADB_FOLDER%\adb pull /mnt/sdcard/Android/data/com.retroarch.ra32/files/retroarch.cfg %THIS_PATH%\retroarch\retroarch.test.cfg || goto:configfailed
+call %ADB_FOLDER%\adb pull /mnt/sdcard/Android/data/com.retroarch.ra32/files/retroarch.cfg %THIS_PATH%\retroarch\retroarch.new.cfg || goto:configfailed
 echo Config pull success
 
 :overrides
+echo.
+echo *********************************************************************
+echo Getting RetroArch core overrides...
+echo *********************************************************************
 echo.
 echo This will download core overrides from your My Arcade to retroarch\config
 echo If you proceed, any existing configs at that location will be overwritten without asking.
@@ -57,7 +65,7 @@ if "%CONTINUE%"=="y" (goto continue_overrides)
 if "%CONTINUE%"=="yes" (goto continue_overrides)
 if "%CONTINUE%"=="Y" (goto continue_overrides)
 if "%CONTINUE%"=="YES" (goto continue_overrides)
-goto:aborted
+goto:thumbnails
 
 :continue_overrides
 echo.
@@ -70,6 +78,10 @@ echo Core overrides pull success
 
 :thumbnails
 echo.
+echo *********************************************************************
+echo Getting RetroArch thumbnails...
+echo *********************************************************************
+echo.
 echo This will download thumbnails from your My Arcade to retroarch\thumbnails
 echo If you proceed, any existing thumbnails at that location will be overwritten without asking.
 
@@ -80,7 +92,7 @@ if "%CONTINUE%"=="y" (goto continue_thumbnails)
 if "%CONTINUE%"=="yes" (goto continue_thumbnails)
 if "%CONTINUE%"=="Y" (goto continue_thumbnails)
 if "%CONTINUE%"=="YES" (goto continue_thumbnails)
-goto:aborted
+goto:playlists
 
 :continue_thumbnails
 echo.
@@ -93,6 +105,10 @@ echo Thumbnails pull success
 
 :playlists
 echo.
+echo *********************************************************************
+echo Getting RetroArch playlists...
+echo *********************************************************************
+echo.
 echo This will download playlists from your My Arcade to retroarch\playlists
 echo If you proceed, any existing playlists at that location will be overwritten without asking.
 
@@ -103,7 +119,7 @@ if "%CONTINUE%"=="y" (goto continue_playlists)
 if "%CONTINUE%"=="yes" (goto continue_playlists)
 if "%CONTINUE%"=="Y" (goto continue_playlists)
 if "%CONTINUE%"=="YES" (goto continue_playlists)
-goto:aborted
+goto:end
 
 :continue_playlists
 echo.

@@ -1,5 +1,22 @@
 # Namco Musem - My Arcade Mini Player - Extra Musem
-Version 1.0.0.0
+Version 1.0.0.1
+
+### Why is this?
+
+While I enjoyed the built-in selection of games in the Namco Museum - My
+Arcade Mini Player, there were a ton of great Namco games that weren't
+represented. Since the build-in games didn't stick strictly to arcade games
+and had some console representation, why not take things further and
+make it so the unit can present several different versions of games?
+
+Like putting the Atari 2600 version of Pac-Man next to the NES version?
+
+Or, there's Splatterhouse 1 and 2 on there - where's Splatterhouse 3?
+
+So I set about to see if I could expand the selection of games - I dared
+to dream that I'd find an editable game list somewhere, but no... BUT!
+It's an Android device with developer mode turned on - so I set about
+writing a new launcher APK...
 
 ### What is this?
 A set of Windows batch files and an Android APK to allow you to install
@@ -102,6 +119,62 @@ This could be for a couple of reasons:
 
 * Windows couldn't figure out the drivers for the device - see https://stackoverflow.com/questions/15721778/adb-no-devices-found and follow the answer by António Almeida. On my Windows 10 machine I didn't have to do anything, but on my Windows 8.1 machine I had to do that extra step.
 * Your USB cable isn't transmitting data, only charge - try a different cable!
+
+## Tested RetroArch Cores
+
+This is quite a low powered Android device under the hood, so many RetroArch
+cores are just simply too slow to be usable, which does mean several entire
+systems are basically off limits here.
+
+Note that I was only interested in expanding the library with Namco games,
+so I've literally not even thought about trying non-Namco games or systems
+that didn't get any Namco games (so no NeoGeo beyond the Pocket Color.) 
+
+### Unplayable Systems
+
+These systems either don't have fast enough emulation to be viable,
+or the hardware controls of the device aren't numerous enough to be
+worthwhile even if they were:
+
+* SNES
+* GameBoy Advance
+* Arcade games beyond the early 80s
+* Consoles passed the Genesis
+
+### Tested Cores
+
+#### Fully Playable
+
+* FCEUmm - Famicom/NES
+* Gambatte - Game Boy/Game Boy Color
+* Genesis Plus GX - Genesis/MegaDrive & SG1000
+* MAME 2010 - Arcade
+* Mednafen NGP - NeoGeo Pocket Color
+* Mednafen PCE - PC Engine/TurboGrafx 16
+* ProSystem - Atari 7800
+* SMS Plus - Game Gear/Master System
+* Stella 2014 - Atari 2600
+
+#### Working but too slow (with workaround)
+
+* Nestopia - Famicom/NES, use FCEUmm instead
+* Stella - Atari 2600, use Stella 2014 instead
+* Various other versions of MAME - Arcade, use MAME 2010 instead
+
+#### Can't get to work
+
+* Atari800 - Atari 5200, not sure why!
+
+### Core/Game Overrides
+
+Core and game overrides for a variety of games and cores are provided
+in `retroarch\config` to apply sensible default configuration options
+and to center the image in the middle of the very tall screen of the
+Namco Museum My Arcade Mini Player but with the right aspect ratio.
+
+The `get_latest_retroarch_data.bat` and `install_retroarch_data.bat`
+scripts in `utils` can be used to add new overrides for different
+cores or tinker with the ones already there.
 
 ## What else can I do?
 The `utils` directory contains various scripts with various functions,

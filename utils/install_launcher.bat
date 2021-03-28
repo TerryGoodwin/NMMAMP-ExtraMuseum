@@ -1,14 +1,15 @@
 @echo off
+cls
 
 set ADB_FOLDER=c:\android\platform-tools
-set THIS_PATH=%CD%
+set ROOT_PATH=%CD%\..
 
 echo NMMAMP-ExtraMuseum Launcher Installer
 echo -------------------------------------
-echo Version 0.1.2.0 by Terry Goodwin
+echo Version 1.0.0.0 by Terry Goodwin
 echo -------------------------------------
 echo Android tools path: %ADB_FOLDER%
-echo Running from path: %THIS_PATH%
+echo Running from path: %ROOT_PATH%
 
 echo.
 echo Getting devices with ADB, will start daemon if it needs to...
@@ -16,8 +17,8 @@ call %ADB_FOLDER%\adb devices || goto:devicesfailed
 echo ADB success
 
 echo.
-echo Installing emlauncher.apk from %THIS_PATH%\frontend\emlauncher.apk
-call %ADB_FOLDER%\adb install %THIS_PATH%\frontend\emlauncher.apk || goto:installfailed
+echo Installing emlauncher.apk from %ROOT_PATH%\frontend\emlauncher.apk
+call %ADB_FOLDER%\adb install %ROOT_PATH%\frontend\emlauncher.apk || goto:installfailed
 echo Success - emlauncher.apk installed (or was already installed)
 
 goto:end

@@ -1,14 +1,15 @@
 @echo off
+cls
 
 set ADB_FOLDER=c:\android\platform-tools
-set THIS_PATH=%CD%
+set ROOT_PATH=%CD%\..
 
-echo NMMAMP-ExtraMuseum Stock ROMs Extractor
-echo ---------------------------------------
-echo Version 0.1.3.0 by Terry Goodwin
-echo ---------------------------------------
+echo NMMAMP-ExtraMuseum Setting Original Launcher
+echo --------------------------------------------
+echo Version 1.0.0.0 by Terry Goodwin
+echo --------------------------------------------
 echo Android tools path: %ADB_FOLDER%
-echo Running from path: %THIS_PATH%
+echo Running from path: %ROOT_PATH%
 
 echo.
 echo Getting devices with ADB, will start daemon if it needs to...
@@ -24,24 +25,35 @@ echo Remounting the file system so we can write to protected areas...
 call %ADB_FOLDER%\adb remount || goto:remountfailed
 
 echo.
-echo Extracting stock ROMs installed on the device into path:
-echo %THIS_PATH%\GAME\
-call %ADB_FOLDER%\adb pull /system/media/GAME %THIS_PATH%\ || goto:pullfailed
-echo Stock ROM extraction success
+echo Pushing clean package restrictions XML...
+call %ADB_FOLDER%\adb push %ROOT_PATH%\config\package-restrictions.stock.xml /data/system/users/0/package-restrictions.xml || goto:configfailed
+
+:reboot
+echo.
+echo Rebooting...
+call %ADB_FOLDER%\adb reboot
+
+echo.
+echo Waiting for 45 seconds for device to reboot...
+echo PLEASE be patient!
+ping 192.0.2.2 -n 1 -w 45000 > delete_me
+
+echo.
+echo Tapping gamelaunch...
+call %ADB_FOLDER%\adb shell input tap 100 270
+
+echo.
+echo Tapping Always...
+call %ADB_FOLDER%\adb shell input tap 100 300
 
 goto:end
 
 REM ----------------------------------- Error States -----------------------------------
 
-:pullfailed
-echo.
-echo Failed to extract ROMs - is your device turned on?
-goto:endpause
-
 :devicesfailed
 echo.
 echo Couldn't start ADB or check for devices - are the Android tools installed? Is the path at the top this file correct?
-goto:failed
+goto:endpause
 
 :rootfailed
 echo.
@@ -53,6 +65,11 @@ echo.
 echo Failed to remount filesystem, without this we can't push files to the My Arcade... Aborting :(
 goto:failed
 
+:configfailed
+echo.
+echo Failed to push stock package restrictions configuration - it may be fine and still work, so proceeding...
+goto:reboot
+
 :failed
 echo.
 echo Finished with errors - things may not have worked. Resolve any errors, and try again.
@@ -60,16 +77,9 @@ goto:endpause
 
 REM ----------------------------------- The End -----------------------------------
 
-:aborted
-echo.
-echo Aborted, nothing downloaded
-goto:endpause
-
 :end
 echo.
 echo All finished!
-echo IMPORTANT: Be careful with experimenting with the location of these files on your device -
-echo you could end up losing files and breaking the stock functionality
 goto:endpause
 
 :endpause

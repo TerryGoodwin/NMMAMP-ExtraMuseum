@@ -1,14 +1,15 @@
 @echo off
+cls
 
 set ADB_FOLDER=c:\android\platform-tools
-set THIS_PATH=%CD%
+set ROOT_PATH=%CD%\..
 
 echo NMMAMP-ExtraMuseum RA Data Downloader
 echo -------------------------------------
-echo Version 0.1.4.1 by Terry Goodwin
+echo Version 1.0.0.0 by Terry Goodwin
 echo -------------------------------------
 echo Android tools path: %ADB_FOLDER%
-echo Running from path: %THIS_PATH%
+echo Running from path: %ROOT_PATH%
 
 echo.
 echo Getting devices with ADB, will start daemon if it needs to...
@@ -46,7 +47,7 @@ echo Proceeding...
 
 echo.
 echo Pulling RetroArch config...
-call %ADB_FOLDER%\adb pull /mnt/sdcard/Android/data/com.retroarch.ra32/files/retroarch.cfg %THIS_PATH%\retroarch\retroarch.new.cfg || goto:configfailed
+call %ADB_FOLDER%\adb pull /mnt/sdcard/Android/data/com.retroarch.ra32/files/retroarch.cfg %ROOT_PATH%\retroarch\retroarch.new.cfg || goto:configfailed
 echo Config pull success
 
 :overrides
@@ -73,7 +74,7 @@ echo Proceeding...
 
 echo.
 echo Pulling RetroArch core overrides...
-call %ADB_FOLDER%\adb pull /mnt/sdcard/RetroArch/config %THIS_PATH%\retroarch\ || goto:overridesfailed
+call %ADB_FOLDER%\adb pull /mnt/sdcard/RetroArch/config %ROOT_PATH%\retroarch\ || goto:overridesfailed
 echo Core overrides pull success
 
 :thumbnails
@@ -100,7 +101,7 @@ echo Proceeding...
 
 echo.
 echo Pulling RetroArch thumbnails...
-call %ADB_FOLDER%\adb pull /data/data/com.retroarch.ra32/thumbnails %THIS_PATH%\retroarch\ || goto:thumbnailsfailed
+call %ADB_FOLDER%\adb pull /data/data/com.retroarch.ra32/thumbnails %ROOT_PATH%\retroarch\ || goto:thumbnailsfailed
 echo Thumbnails pull success
 
 :playlists
@@ -127,7 +128,7 @@ echo Proceeding...
 
 echo.
 echo Pulling RetroArch playlists...
-call %ADB_FOLDER%\adb pull /mnt/sdcard/RetroArch/playlists %THIS_PATH%\retroarch\ || goto:playlistsfailed
+call %ADB_FOLDER%\adb pull /mnt/sdcard/RetroArch/playlists %ROOT_PATH%\retroarch\ || goto:playlistsfailed
 echo Playlists pull success
 
 goto:end

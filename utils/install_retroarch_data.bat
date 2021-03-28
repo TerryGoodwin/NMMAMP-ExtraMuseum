@@ -1,14 +1,15 @@
 @echo off
+cls
 
 set ADB_FOLDER=c:\android\platform-tools
-set THIS_PATH=%CD%
+set ROOT_PATH=%CD%\..
 
 echo NMMAMP-ExtraMuseum RA Data Installer
 echo ------------------------------------
-echo Version 0.1.4.1 by Terry Goodwin
+echo Version 1.0.0.0 by Terry Goodwin
 echo ------------------------------------
 echo Android tools path: %ADB_FOLDER%
-echo Running from path: %THIS_PATH%
+echo Running from path: %ROOT_PATH%
 
 echo.
 echo Getting devices with ADB, will start daemon if it needs to...
@@ -50,7 +51,7 @@ echo Proceeding...
 
 echo.
 echo Pushing purpose-built RetroArch config into place...
-call %ADB_FOLDER%\adb push %THIS_PATH%\retroarch\retroarch.cfg /mnt/media_rw/sdcard/Android/data/com.retroarch.ra32/files/retroarch.cfg || goto:configfailed
+call %ADB_FOLDER%\adb push %ROOT_PATH%\retroarch\retroarch.cfg /mnt/media_rw/sdcard/Android/data/com.retroarch.ra32/files/retroarch.cfg || goto:configfailed
 echo Config push success
 
 :overrides
@@ -81,7 +82,7 @@ echo Proceeding...
 
 echo.
 echo Pushing purpose-built RetroArch core overrides into place...
-call %ADB_FOLDER%\adb push %THIS_PATH%\retroarch\config /mnt/sdcard/RetroArch/ || goto:overridesfailed
+call %ADB_FOLDER%\adb push %ROOT_PATH%\retroarch\config /mnt/sdcard/RetroArch/ || goto:overridesfailed
 echo Overrides push success
 
 :playlists
@@ -112,7 +113,7 @@ echo Proceeding...
 
 echo.
 echo Pushing RetroArch playlists into place...
-call %ADB_FOLDER%\adb push %THIS_PATH%\retroarch\playlists /mnt/sdcard/RetroArch/ || goto:playlistsfailed
+call %ADB_FOLDER%\adb push %ROOT_PATH%\retroarch\playlists /mnt/sdcard/RetroArch/ || goto:playlistsfailed
 echo Playlists push success
 
 :cores
@@ -132,7 +133,7 @@ goto:thumbnails
 :continue_cores
 echo.
 echo Copying over RetroArch cores...
-call %ADB_FOLDER%\adb push %THIS_PATH%\retroarch\cores /data/data/com.retroarch.ra32/ || goto:coresfailed
+call %ADB_FOLDER%\adb push %ROOT_PATH%\retroarch\cores /data/data/com.retroarch.ra32/ || goto:coresfailed
 echo Cores push success
 
 :thumbnails
@@ -152,7 +153,7 @@ goto:end
 :continue_thumbnails
 echo.
 echo Copying over RetroArch thumbnails...
-call %ADB_FOLDER%\adb push %THIS_PATH%\retroarch\thumbnails /data/data/com.retroarch.ra32/ || goto:thumbnailsfailed
+call %ADB_FOLDER%\adb push %ROOT_PATH%\retroarch\thumbnails /data/data/com.retroarch.ra32/ || goto:thumbnailsfailed
 echo Thumbnails push success
 
 goto:end

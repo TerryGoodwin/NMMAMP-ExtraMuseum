@@ -1,14 +1,14 @@
 @echo off
 
 set ADB_FOLDER=c:\android\platform-tools
-set THIS_PATH=%CD%
+set ROOT_PATH=%CD%
 
 echo NMMAMP-ExtraMuseum RetroArch Installer
 echo --------------------------------------
 echo Version 0.1.3.0 by Terry Goodwin
 echo --------------------------------------
 echo Android tools path: %ADB_FOLDER%
-echo Running from path: %THIS_PATH%
+echo Running from path: %ROOT_PATH%
 
 echo.
 echo Getting devices with ADB, will start daemon if it needs to...
@@ -24,8 +24,8 @@ echo Remounting the file system so we can write to protected areas...
 call %ADB_FOLDER%\adb remount || goto:remountfailed
 
 echo.
-echo Installing retroarch.apk from %THIS_PATH%\retroarch\retroarch.apk
-call %ADB_FOLDER%\adb install %THIS_PATH%\retroarch\retroarch.apk || goto:installfailed
+echo Installing retroarch.apk from %ROOT_PATH%\retroarch\retroarch.apk
+call %ADB_FOLDER%\adb install %ROOT_PATH%\retroarch\retroarch.apk || goto:installfailed
 echo Success - retroarch.apk installed (or was already installed)
 
 echo.
@@ -43,12 +43,12 @@ call %ADB_FOLDER%\adb shell am force-stop com.retroarch.ra32
 
 echo.
 echo Pushing purpose-built RetroArch config into place - without this you won't be able to navigate RetroArch
-call %ADB_FOLDER%\adb push %THIS_PATH%\retroarch\retroarch.cfg /mnt/media_rw/sdcard/Android/data/com.retroarch.ra32/files/retroarch.cfg || goto:configfailed
+call %ADB_FOLDER%\adb push %ROOT_PATH%\retroarch\retroarch.cfg /mnt/media_rw/sdcard/Android/data/com.retroarch.ra32/files/retroarch.cfg || goto:configfailed
 echo Config push success
 
 echo.
 echo Pushing purpose-built RetroArch core overrides into place...
-call %ADB_FOLDER%\adb push %THIS_PATH%\retroarch\config /mnt/sdcard/RetroArch/ || goto:overridesfailed
+call %ADB_FOLDER%\adb push %ROOT_PATH%\retroarch\config /mnt/sdcard/RetroArch/ || goto:overridesfailed
 echo Overrides push success
 
 goto:end

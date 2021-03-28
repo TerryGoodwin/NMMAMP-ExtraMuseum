@@ -1,14 +1,15 @@
 @echo off
+cls
 
 set ADB_FOLDER=c:\android\platform-tools
-set THIS_PATH=%CD%
+set ROOT_PATH=%CD%\..
 
 echo NMMAMP-ExtraMuseum Remove Extra Museum
 echo --------------------------------------
-echo Version 0.1.4.0 by Terry Goodwin
+echo Version 1.0.0.0 by Terry Goodwin
 echo --------------------------------------
 echo Android tools path: %ADB_FOLDER%
-echo Running from path: %THIS_PATH%
+echo Running from path: %ROOT_PATH%
 
 echo.
 echo Uninstall everything? This will uninstall the launcher, RetroArch, any ROMs, cores, and other data that's been added by these scripts.
@@ -42,7 +43,7 @@ call %ADB_FOLDER%\adb uninstall com.tgoodwin.emlauncher || goto:uninstalllaunche
 :packagexml
 echo.
 echo Pushing clean package restrictions XML...
-call %ADB_FOLDER%\adb push %THIS_PATH%\config\package-restrictions.stock.xml /data/system/users/0/package-restrictions.xml || goto:packagefailed
+call %ADB_FOLDER%\adb push %ROOT_PATH%\config\package-restrictions.stock.xml /data/system/users/0/package-restrictions.xml || goto:packagefailed
 
 :uninstall
 echo.

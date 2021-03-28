@@ -1,14 +1,14 @@
 @echo off
 
 set ADB_FOLDER=c:\android\platform-tools
-set THIS_PATH=%CD%
+set ROOT_PATH=%CD%
 
 echo NMMAMP-ExtraMuseum Setting Extra Museum Launcher
 echo ------------------------------------------------
 echo Version 0.1.2.0 by Terry Goodwin
 echo ------------------------------------------------
 echo Android tools path: %ADB_FOLDER%
-echo Running from path: %THIS_PATH%
+echo Running from path: %ROOT_PATH%
 
 echo.
 echo Getting devices with ADB, will start daemon if it needs to...
@@ -25,7 +25,7 @@ call %ADB_FOLDER%\adb remount || goto:remountfailed
 
 echo.
 echo Pushing clean package restrictions XML...
-call %ADB_FOLDER%\adb push %THIS_PATH%\config\package-restrictions.stock.xml /data/system/users/0/package-restrictions.xml || goto:configfailed
+call %ADB_FOLDER%\adb push %ROOT_PATH%\config\package-restrictions.stock.xml /data/system/users/0/package-restrictions.xml || goto:configfailed
 
 :reboot
 echo.

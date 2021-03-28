@@ -1,14 +1,14 @@
 @echo off
 
 set ADB_FOLDER=c:\android\platform-tools
-set THIS_PATH=%CD%
+set ROOT_PATH=%CD%
 
 echo NMMAMP-ExtraMuseum Launcher Data Installer
 echo ------------------------------------------
 echo Version 0.1.4.0 by Terry Goodwin
 echo ------------------------------------------
 echo Android tools path: %ADB_FOLDER%
-echo Running from path: %THIS_PATH%
+echo Running from path: %ROOT_PATH%
 
 echo.
 echo Getting devices with ADB, will start daemon if it needs to...
@@ -25,25 +25,25 @@ call %ADB_FOLDER%\adb remount || goto:remountfailed
 
 echo.
 echo Pushing game list into place...
-call %ADB_FOLDER%\adb push %THIS_PATH%\frontend\gamelist.json /data/data/com.tgoodwin.emlauncher/ || goto:listfailed
+call %ADB_FOLDER%\adb push %ROOT_PATH%\frontend\gamelist.json /data/data/com.tgoodwin.emlauncher/ || goto:listfailed
 echo Gamelist push success
 
 :screenshots
 echo.
 echo Pushing screenshots into place...
-call %ADB_FOLDER%\adb push %THIS_PATH%\frontend\screenshots /data/data/com.tgoodwin.emlauncher/ || goto:screenshotsfailed
+call %ADB_FOLDER%\adb push %ROOT_PATH%\frontend\screenshots /data/data/com.tgoodwin.emlauncher/ || goto:screenshotsfailed
 echo Screenshots push success
 
 :systems
 echo.
 echo Pushing system icons into place...
-call %ADB_FOLDER%\adb push %THIS_PATH%\frontend\systems /data/data/com.tgoodwin.emlauncher/ || goto:systemsfailed
+call %ADB_FOLDER%\adb push %ROOT_PATH%\frontend\systems /data/data/com.tgoodwin.emlauncher/ || goto:systemsfailed
 echo Playlists push success
 
 :thumbnails
 echo.
 echo Pushing thumbnails into place...
-call %ADB_FOLDER%\adb push %THIS_PATH%\frontend\thumbnails /data/data/com.tgoodwin.emlauncher/ || goto:thumbnailsfailed
+call %ADB_FOLDER%\adb push %ROOT_PATH%\frontend\thumbnails /data/data/com.tgoodwin.emlauncher/ || goto:thumbnailsfailed
 echo Thumbnails push success
 
 goto:end

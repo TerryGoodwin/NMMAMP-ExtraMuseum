@@ -263,9 +263,11 @@ Performs various actions in sequence - each can be ignored if you want.
 After receiving confirmation, deletes all installed cores from the
 device. Use `install_retroarch_data.bat` to put some back.
 
-Deletes all RetroArch playlists on the device. Use `install_retroarch_data.bat` to put some back.
+Deletes all RetroArch playlists on the device. Use `install_retroarch_data.bat` to put
+some back.
 
-Deletes all RetroArch thumbnails on the device. Use `install_retroarch_data.bat` to put some back.
+Deletes all RetroArch thumbnails on the device. Use `install_retroarch_data.bat` to put
+some back.
 
 ### remove_roms.bat
 After receiving confirmation, deletes all installed ROMs from the
@@ -283,8 +285,13 @@ back again.
 
 ## Known Issues
 
-* If something causes a crash, occasionally that will reset the system's launcher choice. This means that when you restart, it will pop up a stock Android selection to choose whether the stock launcher or the new one should start - but you can't click on or select anything. If this happens, run `utils\set_extra_launcher.bat` to reset that choice.
-* Certain RetroArch cores perform very poorly on this device because it's quite low powered - SNES, GBA, and any Arcade games after like 1984 are going to run really poorly, and there's not really anything to be done about it.
+* If something causes a crash, occasionally that will reset the system's launcher choice.
+This means that when you restart, it will pop up a stock Android selection to choose
+whether the stock launcher or the new one should start - but you can't click on or select 
+anything. If this happens, run `utils\set_extra_launcher.bat` to reset that choice.
+* Certain RetroArch cores perform very poorly on this device because it's quite low
+powered - SNES, GBA, and any Arcade games after like 1984 are going to run really poorly,
+and there's not really anything to be done about it.
 
 ## To Do
 Not that much anymore!
@@ -295,32 +302,10 @@ Not that much anymore!
 * macOS version, as this is all just ADB commands anyway...
 * A GUI so it's not all just ADB commands in scripts!
 
-## License
+## Copyright stuff
 
-Copyright 2021 Terry Goodwin
+No copyrighted content from Namco or My Arcade is included or distributed here! All
+scripts and artwork are entirely original and written/created by me.
 
-No copyrighted content from Namco or My Arcade is included or
-distributed here! All scripts and artwork are entirely original
-and written/created by me.
-
-Any screenshots or videos you may see showing copyrighted artwork
-being used in the frontend is for illustrative purposes only -
-none of it is included here.
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to
-deal in the Software without restriction, including without limitation the
-rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
-sell copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in
-all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-THE SOFTWARE.
+Any screenshots or videos you may see showing copyrighted artwork being used in the
+frontend is for illustrative purposes only - none of it is included here.

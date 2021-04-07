@@ -1,5 +1,5 @@
 # Namco Musem - My Arcade Mini Player - Extra Musem
-Version 1.0.1.1
+Version 1.0.1.2
 
 ### Why is this?
 While I enjoyed the built-in selection of games in the Namco Museum - My Arcade Mini
@@ -70,7 +70,8 @@ You only have to do this process once to install everything:
  * Recommended location is `c:\android\platform-tools`
 * Rename your RetroArch 32bit APK as `retroarch.apk` and put it in the `retroarch` folder
 * Put any cores you want to use into `retroarch\cores`
-* Put any ROMs, BIOS files etc. you need for RetroArch into `GAME-EXTRA`
+* Put any ROMs you need into `roms`
+* Put any BIOS files you need into `bios`
 * OPTIONAL: Put any thumbnails for RetroArch into `retroarch\thumbnails`
 * OPTIONAL: Put any playlists for RetroArch into `retroarch\playlists`
 * OPTIONAL: Look at `frontend\gamelist.json` to see how to customise the new frontend

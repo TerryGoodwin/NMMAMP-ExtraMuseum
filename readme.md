@@ -1,5 +1,5 @@
 # Namco Musem - My Arcade Mini Player - Extra Musem
-Version 1.0.1.0
+Version 1.0.1.1
 
 ### Why is this?
 While I enjoyed the built-in selection of games in the Namco Museum - My Arcade Mini

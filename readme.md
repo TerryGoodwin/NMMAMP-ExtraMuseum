@@ -1,5 +1,8 @@
 # Namco Musem - My Arcade Mini Player - Extra Musem
-Version 1.0.1.2
+Version 1.0.1.3
+
+## USE OF THIS SOFTWARE IS 100% ENTIRELY AT YOUR OWN RISK. WHILE IT HAS BEEN TESTED,
+NO GUARANTEE OR SUPPORT IS IMPLIED OR PROMISED!
 
 ### Why is this?
 While I enjoyed the built-in selection of games in the Namco Museum - My Arcade Mini
